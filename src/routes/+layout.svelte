@@ -1,45 +1,83 @@
-<script>
-	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
-</script>
+<script lang="ts">
+	import './app.postcss';
+	import { AppBar, LightSwitch  } from '@skeletonlabs/skeleton';
+	let buttons=[
+		{
+						title: "Home",
+						url:"/"
 
-<Header />
+		},
+		{
+						title: "About Us",
+						Butid:"#about",
+						url:"#about"
 
-<main>
-	<slot />
-</main>
 
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
 
-<style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
+			
+		},
+		{
+						title: "Services",
+			
+		},
+		{
+			title: "Contact Us",
+			
 		}
-	}
-</style>
+	];
+</script>
+		<!-- App Bar -->
+
+<div class="grid h-screen grid-rows-[auto_1fr_auto]">
+	<!-- Header -->
+	  <header class="sticky lg:top-0 z-10 bg-red-5 00/80 backdrop-blur-sm p-1.5">
+		
+		
+		<AppBar>
+			<svelte:fragment slot="lead">
+				<img class="h-32 w-32 rounded-xl drop-shadow-2xl shadow-2xl " src="/image0.jpeg" alt="">
+
+				<strong class="pl-8 text-lg uppercase hidden lg:flex">Nangfang Quantou</strong>
+			</svelte:fragment>
+			<svelte:fragment slot="trail">
+		
+		
+			
+			{#each buttons as button}
+			<a href="{button.url}" id="{button.Butid}" class="btn btn-sm inline-flex items-center hover:bg-orange-700/50 justify -center h-8 px-2 py-0  text-center dark:border-orange-500/30  no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline">
+				{button.title}
+			</a>
+{/each}
+				<LightSwitch />
+
+			</svelte:fragment>
+		</AppBar>
+	<!-- Page Route Content -->
+
+	
+	
+	
+	</header>
+	  <!-- Main -->	<slot />
+
+	 
+	  <!-- Footer -->
+	  <footer class=" p-4">
+<p class="   text-center">
+	(
+
+	©
+	
+	Nangfang Quantou
+	)
+
+</p>
+
+	  </footer>
+  </div>
+  <style>
+	html {
+  scroll-behavior: smooth;
+}
+  </style>
+  
