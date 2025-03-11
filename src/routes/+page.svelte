@@ -40,14 +40,15 @@ import Header from './Header.svelte';
 
 onMount(async () => {
   const script = document.createElement('script');
-  script.src = 'http://myumani8.voicewave.uk/script.js ata-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"';
+  script.src = 'http://myumani8.voicewave.uk/script.js data-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"';
+  script.dataset.websiteId = '79856f23-46b8-4073-9c4e-b4b63cbc72d1';
   script.defer = true;
   document.body.appendChild(script);
 });
 </script>
 
 {#if browser}
-  <script defer src="http://myumani8.voicewave.uk/script.js" ata-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"></script>
+  <script defer src="http://myumani8.voicewave.uk/script.js" data-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"></script>
 {/if}
 
 
