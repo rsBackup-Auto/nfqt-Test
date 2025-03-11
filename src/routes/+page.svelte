@@ -56,7 +56,7 @@ import Header from './Header.svelte';
 <svelte:head>
   <script 
     defer 
-    src="https://myumani8.voicewave.uk/script.js" 
+    src="https://myumani8.voicewave.uk/" 
     data-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"
   />
 </svelte:head>
