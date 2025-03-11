@@ -1,5 +1,5 @@
 <script lang="ts">
-	import './app.postcss';
+	import '../app.postcss';
 	import { AppBar, LightSwitch  } from '@skeletonlabs/skeleton';
 	let buttons=[
 		{
