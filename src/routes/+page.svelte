@@ -35,17 +35,23 @@ import Header from './Header.svelte';
     ];
     
 
+  import { browser } from '$app/environment';
   import { onMount } from 'svelte';
 
-onMount(async () => {
-  const script = document.createElement('script');
-  script.src = 'http://myumani8.voicewave.uk/script.js"';
-  script.dataset.websiteId = '79856f23-46b8-4073-9c4e-b4b63cbc72d1';
-  script.defer = true;
-  document.body.appendChild(script);
-});
+  let umamiLoaded = false;
 
+  onMount(() => {
+    if (browser && !umamiLoaded) {
+      const script = document.createElement('script');
+      script.defer = true;
+      script.src = 'http://myumani8.voicewave.uk/script.js';
+      script.dataset.websiteId = '79856f23-46b8-4073-9c4e-b4b63cbc72d1';
+      document.head.appendChild(script);
+      umamiLoaded = true;
+    }
+  });
 </script>
+
 
 
 
