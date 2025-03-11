@@ -1,5 +1,5 @@
 
-  <section class="bg-no-repeat bg-center bg-cover bg-[url('pexels-photo-7340359.jpeg')] bg-[#262626]  rounded-2xl drop-shadow-2xl shadow-2xl ">
+  <section class="bg-no-repeat bg-center bg-cover bg-[url('/pexels-photo-7340359.jpeg')] bg-[#262626]  rounded-2xl drop-shadow-2xl shadow-2xl ">
     <div class=" bg-black/90 rounded-t-3xl">
         
         <svg class="rounded-t-2xl" viewBox="0 0 1925 375" fill="none" xmlns="http://www.w3.org/2000/svg">
