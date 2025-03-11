@@ -44,7 +44,7 @@ import Header from './Header.svelte';
     if (browser && !umamiLoaded) {
       const script = document.createElement('script');
       script.defer = true;
-      script.src = 'http://myumani8.voicewave.uk/script.js';
+      script.src = 'https://myumani8.voicewave.uk/script.js';
       script.dataset.websiteId = '79856f23-46b8-4073-9c4e-b4b63cbc72d1';
       document.head.appendChild(script);
       umamiLoaded = true;
@@ -56,7 +56,7 @@ import Header from './Header.svelte';
 <svelte:head>
   <script 
     defer 
-    src="http://myumani8.voicewave.uk/script.js" 
+    src="https://myumani8.voicewave.uk/script.js" 
     data-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"
   />
 </svelte:head>
