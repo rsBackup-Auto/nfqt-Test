@@ -36,6 +36,14 @@ import Header from './Header.svelte';
     
 
   import { browser } from '$app/env';
+  import { onMount } from 'svelte';
+
+onMount(async () => {
+  const script = document.createElement('script');
+  script.src = 'http://myumani8.voicewave.uk/script.js ata-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"';
+  script.defer = true;
+  document.body.appendChild(script);
+});
 </script>
 
 {#if browser}
