@@ -34,13 +34,20 @@ import Header from './Header.svelte';
       }
     ];
     
-  </script>
-  
+
+  import { browser } from '$app/env';
+</script>
+
+{#if browser}
+  <script defer src="http://myumani8.voicewave.uk/script.js" ata-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"></script>
+{/if}
+
 
   <svelte:head>
     <script defer src="http://myumani8.voicewave.uk/script.js" data-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"></script>
   </svelte:head>
   
+
 
   <main class="bg-gree n-500 p-4 space-y-20 rounded-2xl">
     <div class="p-4 rounded">
