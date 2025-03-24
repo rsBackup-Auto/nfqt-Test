@@ -88,8 +88,7 @@
 		--chat--subtitle--font-size: inherit;
 		--chat--subtitle--line-height: 1.8;
 	
-		--chat--textarea--height: 50px;
-		--chat--textarea--width: 1rem;
+		--chat--textarea--height: 80px;
 
 		--chat--message--font-size: 0.9rem;
 		--chat--message--padding: var(--chat--spacing);
