@@ -1,7 +1,5 @@
 <script>
-    import ChatNfqt from "$lib/ChatNfqt.svelte";
-
-
+import ChatNfqt from "$lib/ChatNfqt.svelte";
 </script>
 
 <ChatNfqt ./>

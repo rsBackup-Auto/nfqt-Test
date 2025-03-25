@@ -29,8 +29,8 @@
 		defaultLanguage: 'en',
 		initialMessages: [
 			'Greetings! 👋',
-			'Hi Welcome to NFQT',
-			
+			'Hi Welcome to Nangfang Quantou',
+			'How can I help you today?',
 		],
 		i18n: {
 			en: {
