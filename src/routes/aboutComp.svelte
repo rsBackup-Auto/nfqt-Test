@@ -14,9 +14,10 @@
                         About Us
                     </h2>
 
-                    <p class="text-lg">
-                        Experience the true essence of Southern Mantis Kung Fu at Bamboo Forest Temple, where precision” and control reign supreme.
-                        Experience the deep-rooted traditions of Bamboo Forest Temple Mantis Kung Fu, passed down from generation to generation.
+                    <p class="text-lg font-bold">
+                        Your Path to Mastery
+
+                        At Nangfang Quantou, we take this philosophy to heart. We don't just teach techniques; we guide you on a journey of self-discovery and personal growth. Our approach is holistic, integrating movement, meditation, and traditional healing practices to enhance your physical health, mental clarity, and spiritual growth to reconect you to you true self.
                     </p>
                 </div>
             </main>
