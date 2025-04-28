@@ -1,0 +1,88 @@
+/* F&L Kitchens Chat Custom Styles - Simplified Version */
+.n8n-chat__window {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3) !important;
+  border: 2px solid #ffcc00 !important;
+  border-radius: 1rem !important;
+  overflow: hidden !important;
+}
+/* Header styling with yellow background and black text */
+.n8n-chat__header {
+  background-color: #ffcc00 !important;
+  padding-left: 80px !important;
+  background-image: url('https://fandlkitchens.co.uk/logonew_119x92.png') !important;
+  background-size: 60px !important;
+  background-repeat: no-repeat !important;
+  background-position: 10px center !important;
+}
+
+.n8n-chat__header-title {
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+.n8n-chat__header-subtitle {
+  color: #000000 !important;
+}
+
+/* Message styling */
+.n8n-chat__message {
+  border-radius: 1.5rem !important;
+  padding: 1.2rem !important;
+  max-width: 85% !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  margin-bottom: 12px !important;
+}
+
+.n8n-chat__message--bot {
+  background-color: #ffcc00 !important;
+  color: #000000 !important;
+  border: none !important;
+  border-bottom-left-radius: 0.5rem !important;
+}
+
+.n8n-chat__message--user {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffcc00 !important;
+  border-bottom-right-radius: 0.5rem !important;
+}
+
+/* Chat window background */
+.n8n-chat__messages-container {
+  background-color: #000000 !important;
+}
+
+/* Input area styling */
+.n8n-chat__input-container {
+  background-color: #000000 !important;
+  border-top: 1px solid #ffcc00 !important;
+  padding: 15px !important;
+}
+
+.n8n-chat__input {
+  border-radius: 1.5rem !important;
+  border: 1px solid #ffcc00 !important;
+  padding: 12px 15px !important;
+  background-color: #111111 !important;
+  color: #ffcc00 !important;
+  font-size: 1rem !important;
+}
+
+/* Toggle button styling */
+.n8n-chat__toggle {
+  background-color: #000000 !important;
+  border: 2px solid #ffcc00 !important;
+  color: #ffcc00 !important;
+}
+
+.n8n-chat__toggle:hover {
+  background-color: #333333 !important;
+}
+
+/* Send button styling */
+.n8n-chat__send-button {
+  background-color: #ffcc00 !important;
+  color: #000000 !important;
+  border-radius: 50% !important;
+}
