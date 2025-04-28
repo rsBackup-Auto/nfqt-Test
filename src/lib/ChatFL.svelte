@@ -1,51 +1,61 @@
 <script lang="ts">
 	import '@n8n/chat/style.css';
 	// Import custom styles for F&L Kitchens chat
-	import '$lib/fl-chat-styles-simple.css';
+	import '$lib/fl-chat-styles-optimized.css';
 
 
 	import { createChat } from '@n8n/chat';
-		import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
+	
+	// Chat initialization flag for performance
+	let chatInitialized = false;
 
-		onMount(() => {
-			console.log('the component has mounted');
-
-	createChat({
-		webhookUrl: 'https://n8n.srv766038.hstgr.cloud/webhook/949050be-b086-472d-b86f-d6de855fe0cb/chat',
-		webhookConfig: {
-			method: 'POST',
-			headers: {}
-		},
-		target: '#n8n-chat',
-		mode: 'window',
-		chatInputKey: 'chatInput',
-		chatSessionKey: 'sessionId',
-		metadata: {},
-
-		showWelcomeScreen: false,
-		defaultLanguage: 'en',
-		initialMessages: [
-			'Welcome to F&L Kitchens! 👋',
-			'We specialise in creating luxury kitchens tailored to your needs and style.',
-			'How can we help you design your Dream Kitchen today?'
-		],
-		i18n: {
-			en: {
-				title: 'F&L Kitchens 👋',
-				subtitle: "Luxury Kitchen Specialists. - 24/7 Support",
-				footer: 'F&L Kitchens - Quality & Excellence',
-				getStarted: 'Start Conversation',
-				inputPlaceholder: 'Ask us about your Dream kitchen...',
-				closeButtonTooltip:'Close chat',
-			},
-		},
-
+	onMount(() => {
+		// Initialize chat with slight delay to improve page load performance
+		setTimeout(() => {
+			if (!chatInitialized) {
+				initializeChat();
+			}
+		}, 100);
 	});
 
+	// Function to initialize chat - separated for performance
+	function initializeChat() {
+		chatInitialized = true;
 
+		createChat({
+			webhookUrl: 'https://n8n.srv766038.hstgr.cloud/webhook/949050be-b086-472d-b86f-d6de855fe0cb/chat',
+			webhookConfig: {
+				method: 'POST',
+				headers: {}
+			},
+			target: '#n8n-chat',
+			mode: 'window',
+			chatInputKey: 'chatInput',
+			chatSessionKey: 'sessionId',
+			metadata: {},
+
+			showWelcomeScreen: false,
+			defaultLanguage: 'en',
+			// Combined welcome messages for faster initial load
+			initialMessages: [
+				'Welcome to F&L Kitchens! 👋',
+				'We specialize in creating luxury kitchens tailored to your needs and style.',
+				'How can we help you design your Dream kitchen today?'
+			],
+			i18n: {
+				en: {
+					title: 'F&L Kitchens',
+					subtitle: "Luxury Kitchen Specialists",
+					footer: 'F&L Kitchens - Quality & Excellence',
+					getStarted: 'Start Conversation',
+					inputPlaceholder: 'Ask us about your dream kitchen...',
+					closeButtonTooltip:'Close chat',
+				},
+			},
 		});
-
+	}
 
 
 

@@ -1,0 +1,154 @@
+/* F&L Kitchens Chat - Optimized Styles */
+
+/* Chat window container */
+.n8n-chat__window {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+  border: 2px solid #ffcc00 !important;
+  border-radius: 1rem !important;
+  overflow: hidden !important;
+  background-color: #000000 !important;
+}
+
+/* Messages container */
+.n8n-chat__messages-container {
+  background-color: #000000 !important;
+}
+
+/* Header styling with logo */
+.n8n-chat__header {
+  background-color: #ffcc00 !important;
+  padding-left: 80px !important;
+  background-image: url('https://fandlkitchens.co.uk/logonew_119x92.png') !important;
+  background-size: 60px !important;
+  background-repeat: no-repeat !important;
+  background-position: 10px center !important;
+  position: relative !important;
+}
+
+.n8n-chat__header-title {
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+.n8n-chat__header-subtitle {
+  color: #000000 !important;
+}
+
+/* Message styling - shared properties */
+.n8n-chat__message {
+  border-radius: 1.5rem !important;
+  padding: 1.2rem !important;
+  max-width: 85% !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  margin-bottom: 12px !important;
+}
+
+/* Bot message styling */
+.n8n-chat__message--bot {
+  background-color: #ffcc00 !important;
+  color: #000000 !important;
+  border: none !important;
+  border-bottom-left-radius: 0.5rem !important;
+}
+
+/* User message styling */
+.n8n-chat__message--user {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffcc00 !important;
+  border-bottom-right-radius: 0.5rem !important;
+}
+
+/* Text formatting in messages */
+.n8n-chat__message p {
+  margin: 0 0 8px 0 !important;
+  letter-spacing: 0.02em !important;
+  font-weight: 400 !important;
+}
+
+.n8n-chat__message p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Input area styling */
+.n8n-chat__input-container {
+  background-color: #000000 !important;
+  border-top: 1px solid #ffcc00 !important;
+  padding: 15px !important;
+  display: flex !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix for Firefox and Chrome to ensure input is full width */
+.n8n-chat__input-wrapper {
+  flex: 1 !important;
+  width: 100% !important;
+  max-width: calc(100% - 50px) !important; /* Account for send button */
+}
+
+.n8n-chat__input {
+  border-radius: 1.5rem !important;
+  border: 1px solid #ffcc00 !important;
+  padding: 12px 15px !important;
+  background-color: #111111 !important;
+  color: #ffcc00 !important;
+  font-size: 1rem !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.n8n-chat__input::placeholder {
+  color: rgba(255, 204, 0, 0.6) !important;
+}
+
+/* Toggle button styling */
+.n8n-chat__toggle {
+  background-color: #000000 !important;
+  border: 2px solid #ffcc00 !important;
+  color: #ffcc00 !important;
+}
+
+.n8n-chat__toggle:hover {
+  background-color: #333333 !important;
+}
+
+/* Send button styling */
+.n8n-chat__send-button {
+  background-color: #ffcc00 !important;
+  color: #000000 !important;
+  border-radius: 50% !important;
+  min-width: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 10px !important;
+  flex-shrink: 0 !important; /* Prevent button from shrinking */
+}
+
+/* Footer styling */
+.n8n-chat__footer {
+  background-color: #000000 !important;
+  color: #ffcc00 !important;
+  border-top: 1px solid #ffcc00 !important;
+}
+
+/* Welcome screen styling */
+.n8n-chat__welcome-screen {
+  background-color: #000000 !important;
+  color: #ffcc00 !important;
+}
+
+/* Content area */
+.n8n-chat__content {
+  background-color: #000000 !important;
+}
+
+/* Additional fixes for cross-browser compatibility */
+.n8n-chat__form {
+  display: flex !important;
+  width: 100% !important;
+}
