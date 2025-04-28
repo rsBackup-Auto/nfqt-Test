@@ -81,11 +81,29 @@
   box-sizing: border-box !important;
 }
 
-/* Fix for Firefox and Chrome to ensure input is full width */
+/* Ensure input container and form are full width */
+.n8n-chat__input-container {
+  display: flex !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.n8n-chat__form {
+  display: flex !important;
+  width: 100% !important;
+}
+
+/* Make input wrapper take all available space */
 .n8n-chat__input-wrapper {
   flex: 1 !important;
   width: 100% !important;
   max-width: calc(100% - 50px) !important; /* Account for send button */
+}
+
+/* Ensure input field itself is full width */
+.n8n-chat__input {
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 .n8n-chat__input {
@@ -152,3 +170,4 @@
   display: flex !important;
   width: 100% !important;
 }
+

@@ -130,5 +130,12 @@
 	--chat--toggle--size: 70px; /* Slightly larger toggle button */
 	--chat--toggle--border: 2px solid var(--chat--color-primary); /* Yellow border */
 	--chat--toggle--box-shadow: 0 0 10px rgba(255, 204, 0, 0.5); /* Yellow glow effect */
+
+	/* Add or modify these properties to fix the input width */
+	--chat--input--width: 100%; /* Ensure input is full width */
+	--chat--input-container--padding: 15px; /* Consistent padding */
+	--chat--input-wrapper--width: 100%; /* Full width wrapper */
+	--chat--form--display: flex; /* Use flexbox for the form */
+	--chat--form--width: 100%; /* Full width form */
 }
 	</style>
