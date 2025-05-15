@@ -18,20 +18,17 @@
 		},
 		{
 						title: "Services",
+						Butid:"services",
+						url:"#services"
 			
 		},
 		{
 			title: "Contact Us",
+			url:"/contact"			
 			
 		}
 	];
 </script>
-
-
-<svelte:head>
-    <script defer src="https://myumani8.voicewave.uk/script.js" data-website-id="79856f23-46b8-4073-9c4e-b4b63cbc72d1"></script>
-  </svelte:head>
-  
 
 		<!-- App Bar -->
 
@@ -65,11 +62,15 @@
 	
 	
 	</header>
-	  <!-- Main -->	<slot />
+	  <!-- Main -->	
+	   <slot />
 
 	 
 	  <!-- Footer -->
 	  <footer class=" p-4">
+
+
+		
 <p class="   text-center">
 	(
 
@@ -82,9 +83,11 @@
 
 	  </footer>
   </div>
+
+
+
   <style>
 	html {
   scroll-behavior: smooth;
 }
   </style>
-  
