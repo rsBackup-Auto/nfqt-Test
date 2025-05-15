@@ -1,3 +1,4 @@
+
 <div class="space-y-6 lg:px-8 mt-20 text-center group">
     <div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 lg:pb-10">
       <div class="pricing-wrapper w-full relative rounded-2xl bg-gradient-to-t from-gray-300 to-white p-0.5 shadow-[0_0px_25px_0px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out hover:shadow-[0_0px_25px_0px_rgba(0,0,0,0.2)]">
@@ -87,7 +88,7 @@ style="fill:#40C057;">
                                           </div>
 
           </div>
-          <a href="https://get.homedock.cloud"  class="checkout-button flex items-center justify-center bg-orange-800/70 text-white border-none py-2.5 px-5 text-md rounded-md w-full hover:bg-orange-500 transition-colors duration-300 mt-6">
+          <a href="/booknow"  class="checkout-button flex items-center justify-center bg-orange-800/70 text-white border-none py-2.5 px-5 text-md rounded-md w-full hover:bg-orange-500 transition-colors duration-300 mt-6">
             <span class="iconify mr-1 text-lg mb-0.5" data-icon="mdi:download" data-inline="false"></span>
             <span>Book Now</span>
           </a>
@@ -209,9 +210,9 @@ style="fill:#40C057;">
 
          
             </div>
-          <a href="https://dashboard.homedock.cloud" class="checkout-button flex items-center justify-center bg-orange-800/70 text-white border-none py-2.5 px-5 text-md rounded-md w-full hover:bg-orange-500 transition-colors duration-300 mt-6">
+          <a href="/booknow" class="checkout-button flex items-center justify-center bg-orange-800/70 text-white border-none py-2.5 px-5 text-md rounded-md w-full hover:bg-orange-500 transition-colors duration-300 mt-6">
             <span class="iconify mr-1 text-lg mb-0.5" data-icon="mdi:cloud" data-inline="false"></span>
-            <span>Get it!</span>
+            <span>Book Now!</span>
           </a>
           <svg xmlns="http://www.w3.org/2000/svg" class="iconify absolute top-8 left-8 text-[500px] z-[-1] pointer-events-none text-blue-100 transition duration-1000 delay-200 group-hover:-translate-y-8 group-hover:-translate-x-8 iconify--mdi" width="1em" height="1em" viewBox="0 0 24 24">
             <path fill="currentColor" fillRule="evenodd" d="M11 4.25a6.75 6.75 0 0 0-6.624 5.448A5.25 5.25 0 0 0 6.5 19.75h11a5.25 5.25 0 0 0 .02-10.5a6.75 6.75 0 0 0-6.52-5m3.53 7.28a.75.75 0 1 0-1.06-1.06L10 13.94l-1.47-1.47a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0z" clipRule="evenodd" />
@@ -336,9 +337,9 @@ style="fill:#40C057;">
         
         
         </div>
-          <a href="/contact/" class="checkout-button flex items-center justify-center bg-orange-800/70 text-white border-none py-2.5 px-5 text-md rounded-md w-full hover:bg-orange-500 transition-colors duration-300 mt-6">
+          <a href="/booknow" class="checkout-button flex items-center justify-center bg-orange-800/70 text-white border-none py-2.5 px-5 text-md rounded-md w-full hover:bg-orange-500 transition-colors duration-300 mt-6">
             <span class="iconify mr-1 text-lg mb-0.5" data-icon="mdi:briefcase" data-inline="false"></span>
-            <span>Contact us!</span>
+            <span>Book Now!</span>
           </a>
           <svg xmlns="http://www.w3.org/2000/svg" class="iconify absolute top-8 left-8 text-[500px] z-[-1] pointer-events-none text-orange-100 transition duration-1000 delay-1000 group-hover:-translate-y-8 group-hover:-translate-x-8 iconify--mdi" width="1em" height="1em" viewBox="0 0 24 24">
             <path fill="currentColor" d="M22 13.478V18a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-4.522l.553.277a21 21 0 0 0 18.897-.002zM14 2a3 3 0 0 1 3 3v1h2a3 3 0 0 1 3 3v2.242l-1.447.724a19 19 0 0 1-16.726.186l-.647-.32l-1.18-.59V9a3 3 0 0 1 3-3h2V5a3 3 0 0 1 3-3zm-2 8a1 1 0 0 0-1 1a1 1 0 1 0 2 .01c0-.562-.448-1.01-1-1.01m2-6h-4a1 1 0 0 0-1 1v1h6V5a1 1 0 0 0-1-1" />
@@ -348,7 +349,7 @@ style="fill:#40C057;">
     </div>
   </div>
   
-  <div class="flex justify-center">
+  <div class="flex justify-center hidden">
     <div class="items-center mt-10 px-6 py-1 text-xs bg-gray-300 rounded-full inline-flex transition duration-300 hover:bg-gray-800 hover:text-white hover:-translate-y-1">
       <a target="_blank" href="">Live Chat</a>
     </div>

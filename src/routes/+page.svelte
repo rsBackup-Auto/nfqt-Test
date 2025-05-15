@@ -1,43 +1,31 @@
-<script>
-  import AvailablePrice from './AvailablePrice.svelte';
+<script lang="ts">
+import AvailablePrice from './AvailablePrice.svelte';
 import Header from './Header.svelte';
-    import Steps from './Steps.svelte';
-    import WhatComp from './WhatComp.svelte';
-
-    import AboutComp from "./aboutComp.svelte";
-    import AboutComp2 from "./aboutComp2.svelte";
-    import Grid from './grid.svelte';
-
-
-  </script>
+import Steps from './Steps.svelte';
+import WhatComp from './WhatComp.svelte';
+import AboutComp from "./aboutComp.svelte";
+import AboutComp2 from "./aboutComp2.svelte";
+import Grid from './grid.svelte';
+    import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
+</script>
 
   <main class="bg-gree n-500 p-4 space-y-20 rounded-2xl">
     <div class="p-4 rounded">
 
-
-
-
-        <Header></Header>
-
+        <Header />
 
     </div>
-<div id="#about" class=" p-2 mx-4 bg-white/30 border-orange-500 rounded-2xl">
-
+<div id="about" class=" p-2 mx-4 bg-white/30 border-orange-500 rounded-2xl">
 
     <div class="lg:p-0.5">
         <div class="max-w -7xl mx-auto">
     
-
-
-
             <div class="max- w-7xl mx-auto">
                 <div class="py-5">
                 <p class=" text-orange-500 text-lg text-center">Master the Art</p>
         
                 <h2 class="text-4xl font-semibold text-center">About Us</h2>
             </div>
-
-
 
     <AboutComp />
     
@@ -53,18 +41,16 @@ import Header from './Header.svelte';
    
 
 
-    <div class=" p-1.5 hidden bg-white/30 border border-orange-800 rounded-2xl">
+    <div id="services" class=" p-1.5 hidden bg-white/30 border border-orange-800 rounded-2xl">
 
 
-        <div class="lg:p-0.5 ">
+        <div class="lg:p-0.5">
             <div class="max- w-7xl mx-auto">
                 <div class="py-5">
                 <p class=" text-orange-500 text-lg text-center">Master the Art</p>
-        
                 <h2 class="text-4xl font-semibold text-center">Our Services</h2>
             </div>
         <WhatComp />
-        
             </div>
           </div>
         
@@ -80,7 +66,7 @@ import Header from './Header.svelte';
 
 
 
-<div class=" p-1.5 mx -4 my-10 bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
+<div class=" p-1.5 mx -4 my-10 bg-white/30 border hidden border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
     
     <div class="py-5">
         <p class=" text-orange-500 text-lg text-center">Master the Art</p>
@@ -97,14 +83,14 @@ import Header from './Header.svelte';
 
 
 
-
-
-
-<div class=" p-1.5 mx -4  my-10 bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
-
     <p class="pt-5 text-orange-500 text-lg font-semibold text-center">Transform Your Journey </p>
 
     <h2 class="text-4xl font-semibold text-center mb-12">Martial Arts Training</h2>
+
+
+
+
+<div id="services" class=" p-1.5 mx -4  my-10 bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
 
 <Grid />
 
@@ -117,11 +103,9 @@ import Header from './Header.svelte';
 
 
 <div class=" p -4">
+        <h2 class="text-4xl font-semibold text-center mb-2">Pricing Plans </h2>
 
-    <p class="pt-5 text-orange-500 text-lg font-semibold text-center">Choose the right plan for you</p>
-
-    <h2 class="text-4xl font-semibold text-center mb-12">Pricing Plans </h2>
-
+    <p class="text-orange-500 text-lg font-semibold text-center">Choose the right course for you</p>
 
 <AvailablePrice />
 
@@ -139,7 +123,10 @@ import Header from './Header.svelte';
 
   </div>
 
-
 <p class="h-[512px] bg-purple-500 p-4 hidden">Book Your First Class</p>
+</div>
 
 </main>
+
+
+<AutoAiCenterComp />
