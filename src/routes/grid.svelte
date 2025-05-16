@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { fade } from 'svelte/transition';
     let services = [
       {
         title: "Targeted Strikes",
@@ -51,6 +52,7 @@
     ];
     
     let activeService = null;
+    let imageLoaded = false;
 
     function openModal(service) {
       activeService = service;
@@ -59,7 +61,8 @@
     function closeModal() {
       activeService = null;
     }
-    
+
+    $: if (!activeService) imageLoaded = false;
   </script>
   
 
@@ -84,10 +87,14 @@
 <section class="py-12 bg-orange-900/70 rounded-2xl text-gray-100 sm:py-12 lg:py-16">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="max-w-xl mx-auto text-center xl:max-w-2xl">
-            <h2 class="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">We are just
-                getting started!</h2>
-            <p class="mb-4">We are creating a tool that helps you be more productive and efficient when building
-                websites and webapps</p>
+            <h2 class="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">
+          
+                Strike with Precision. Train with Purpose.
+              
+              </h2>
+            <p class="mb-4">
+          Harness ancient wisdom, sharpen your mind, and join a powerful martial arts community.
+              </p>
 
         </div>
         
@@ -143,10 +150,23 @@
           <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-8 relative max-h-[90vh] overflow-y-auto">
             <button class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl" on:click={closeModal}>&times;</button>
             <h2 class="text-2xl font-bold text-center text-black mb-2">{activeService.title}</h2>
-            <picture>
-      <source srcset={activeService.webpUrl} type="image/webp" />
-      <img src={activeService.imageUrl} alt={activeService.title} class="w-60 h-60 max-h-60 mx-auto aspect-auto rounded-2xl shadow-2xl drop-shadow-2xl mb-4" />
-    </picture>
+            <div class="w-60 h-60 max-h-60 mx-auto mb-4 relative">
+      {#if !imageLoaded}
+        <div class="absolute inset-0 bg-gray-200 animate-pulse rounded-2xl"></div>
+      {/if}
+      <picture>
+        <source srcset={activeService.webpUrl} type="image/webp" />
+        <img
+          src={activeService.imageUrl}
+          alt={activeService.title}
+          class="w-60 h-60 max-h-60 mx-auto aspect-auto rounded-2xl shadow-2xl drop-shadow-2xl"
+          loading="lazy"
+          use:fade
+          on:load={() => imageLoaded = true}
+          style="opacity: {imageLoaded ? 1 : 0}; transition: opacity 0.5s;"
+        />
+      </picture>
+    </div>
             <h2 class="text-2xl font-bold text-black mb-2">{activeService.modaltitle}</h2>
             <p class="mb-4 text-black">{activeService.moreinfo}</p>
             <button class="mt-2 px-4 py-2 bg-orange-700 text-white rounded hover:bg-orange-800" on:click={closeModal}>

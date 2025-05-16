@@ -15,9 +15,7 @@
                     </h2>
 
                     <p class="text-lg font-bold">
-                        Your Path to Mastery
-
-                        At Nangfang Quantou, we take this philosophy to heart. We don't just teach techniques; we guide you on a journey of self-discovery and personal growth. Our approach is holistic, integrating movement, meditation, and traditional healing practices to enhance your physical health, mental clarity, and spiritual growth to reconect you to you true self.
+At Nangfang Quantou, we guide you on the Great Path with Bamboo Forest Mantis. Beyond techniques, we forge warriors through movement, meditation, and ancient wisdom. Our holistic practice sharpens your body, clears your mind, and awakens your chi, reconnecting you to your truest self. Embrace a lifestyle of mastery, where every strike and breath fuels transformation.
                     </p>
                 </div>
             </main>
