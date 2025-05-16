@@ -88,20 +88,20 @@
 <div class="fixed bottom-0 right-0 w-full md:bottom-4 md:right-4 md:w-auto z-50">
   <div 
     bind:this={buttonElement}
-    class="luxury-button bg-orange-700 text-black border border-yellow-400 shadow-lg shadow-yellow-400/40 text-sm p-4 md:rounded-lg flex justify-between items-center border-pulse transition-all duration-300"
+    class="luxury-button bg-[#ac6e2c] text-white border border-yellow-400 shadow-lg shadow-yellow-400/40 text-sm p-4 md:rounded-lg flex justify-between items-center border-pulse transition-all duration-300"
   >
     <div class="flex items-center">
       <span class="inline-block mr-2 transition-transform duration-700 hover:rotate-12">
         <!-- You can update the SVG icon color to yellow as well -->
-        <svg class="w-5 h-5" fill="currentColor" style="color: #fde047;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg class="w-5 h-5" fill="currentColor" style="color: #;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z"/>
         </svg>
       </span>
-      <a class="font-medium tracking-wide cursor-pointer transition-all duration-300 hover:tracking-wider text-black font-bold" on:click={toggleChat}>
+      <a class="font-medium tracking-wide cursor-pointer transition-all duration-300 hover:tracking-wider text-white font-bold" on:click={toggleChat}>
         {buttonText}
       </a>
     </div>
-    <button class="text-black hover:text-yellow-400 ml-5 transition-all duration-300 transform hover:scale-110" on:click={toggleChat}>
+    <button class="text-white hover:text-yellow-400 ml-5 transition-all duration-300 transform hover:scale-110" on:click={toggleChat}>
       <span class="sr-only">Toggle Chat</span>
       <svg class="w-4 h-4 flex-shrink-0 fill-current" viewBox="0 0 16 16">
         <path d="M12.72 3.293a1 1 0 00-1.415 0L8.012 6.586 4.72 3.293a1 1 0 00-1.414 1.414L6.598 8l-3.293 3.293a1 1 0 101.414 1.414l3.293-3.293 3.293 3.293a1 1 0 001.414-1.414L9.426 8l3.293-3.293a1 1 0 000-1.414z" />
@@ -127,7 +127,7 @@
     class="fixed z-50 bottom-0 right-0 md:bottom-24 md:right-8"
   >
     <div 
-      class="chat-window relative bg-black border border-yellow-400 rounded-2xl w-full h-full md:w-[400px] md:h-[600px] shadow-2xl shadow-yellow-400/40 chat-3d-effect"
+      class="chat-window relative bg-orange-400 border border-yellow-400 rounded-2xl w-full h-full md:w-[400px] md:h-[600px] shadow-2xl shadow-yellow-400/40 chat-3d-effect"
       style="
         transform: scale({$scale});
         transform-origin: bottom right;
@@ -138,7 +138,7 @@
       <!-- Chat Container with Header -->
       <div class="chat-container-flex">
         <!-- Chat Header -->
-        <div class="chat-header p-4 flex items-center bg-black border-b border-yellow-400 rounded-t-2xl shadow-orange-400/20">
+        <div class="chat-header p-4 flex items-center border-b border-yellow-400 rounded-t-2xl shadow-orange-400/20">
           <!-- Avatar -->
           <div class="avatar w-10 h-10 flex items-center rounded-lg justify-center mr-3 bg-yellow-400">
            
@@ -147,16 +147,16 @@
           </div>
           
           <!-- User Info -->
-          <div class="flex-1">
-            <h3 class="text-black  font-bold">{chatTitle}</h3>
-            <p class="text-black text-xs">Online | Ready to help</p>
+          <div class="flex-1 select-none">
+            <h3 class="text-white  font-bold">{chatTitle}</h3>
+            <p class="text-white text-xs">Online | Ready to help</p>
           </div>
           
           <!-- Header Actions -->
           <div 
           class="flex space-x-3">
        
-            <button class="text-yellow-400 hover:text-yellow-300 transition-colors">
+            <button class="text-white hover:text-yellow-300 transition-colors">
               <a 
                 href='https://wa.me/447780116170'
                 target="_blank" 
@@ -170,7 +170,7 @@
             
             <!-- Luxury Close Button -->
             <button
-              class="text-yellow-400 hover:text-yellow-300 transition-colors"
+              class="text-white hover:text-yellow-300 transition-colors"
               on:click={closeChat}
             >
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
