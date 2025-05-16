@@ -4,6 +4,7 @@
     import Footer from '$lib/Footertwo.svelte';
 import '../app.postcss';
 	import { AppBar, LightSwitch  } from '@skeletonlabs/skeleton';
+    import { onMount } from 'svelte';
 	let buttons=[
 		{
 						title: "Home",
@@ -32,6 +33,21 @@ import '../app.postcss';
 			
 		}
 	];
+
+    onMount(() => {
+        // Delegate click events for anchor links with hashes
+        document.addEventListener('click', (event) => {
+            const target = event.target as HTMLElement;
+            if (target.tagName === 'A' && target.getAttribute('href')?.startsWith('#')) {
+                const id = target.getAttribute('href')!.slice(1);
+                const el = document.getElementById(id);
+                if (el) {
+                    event.preventDefault();
+                    el.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    });
 </script>
 
 		<!-- App Bar -->
