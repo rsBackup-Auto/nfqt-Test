@@ -6,7 +6,7 @@ import WhatComp from './WhatComp.svelte';
 import AboutComp from "./aboutComp.svelte";
 import AboutComp2 from "./aboutComp2.svelte";
 import Grid from './grid.svelte';
-    import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
+import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 </script>
 
   <main class="bg-gree n-500 p-4 space-y-20 rounded-2xl">
@@ -41,7 +41,7 @@ import Grid from './grid.svelte';
    
 
 
-    <div id="services" class=" p-1.5 hidden bg-white/30 border border-orange-800 rounded-2xl">
+    <div class=" p-1.5 hidden bg-white/30 border border-orange-800 rounded-2xl">
 
 
         <div class="lg:p-0.5">
@@ -102,8 +102,8 @@ import Grid from './grid.svelte';
 
 
 
-<div class=" p -4">
-        <h2 class="text-4xl font-semibold text-center mb-2">Pricing Plans </h2>
+<div class=" p -4" id="courses">
+        <h2 class="text-4xl font-semibold text-center mb-2">Courses </h2>
 
     <p class="text-orange-500 text-lg font-semibold text-center">Choose the right course for you</p>
 

@@ -1,5 +1,8 @@
 <script lang="ts">
-	import '../app.postcss';
+	    import ContactModal from '$lib/ContactModal.svelte';
+    let showModal = false;
+    import Footer from '$lib/Footertwo.svelte';
+import '../app.postcss';
 	import { AppBar, LightSwitch  } from '@skeletonlabs/skeleton';
 	let buttons=[
 		{
@@ -18,13 +21,14 @@
 		},
 		{
 						title: "Services",
-						Butid:"services",
+						Butid:"#services",
 						url:"#services"
 			
 		},
 		{
-			title: "Contact Us",
-			url:"/contact"			
+						title: "Courses",
+						Butid:"#courses",
+						url:"#courses"
 			
 		}
 	];
@@ -52,6 +56,14 @@
 				{button.title}
 			</a>
 {/each}
+				<!-- Contact Us modal button -->
+				<button
+					class="btn btn-sm inline-flex items-center hover:bg-orange-700/50 justify-center h-8 px-2 py-0 text-center dark:border-orange-500/30 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
+					on:click={() => showModal = true}
+					type="button"
+				>
+					Contact Us
+				</button>
 				<LightSwitch />
 
 			</svelte:fragment>
@@ -69,25 +81,18 @@
 	  <!-- Footer -->
 	  <footer class=" p-4">
 
-
+<Footer />
 		
-<p class="   text-center">
-	(
-
-	©
-	
-	Nangfang Quantou
-	)
-
-</p>
 
 	  </footer>
   </div>
 
-
+<!-- Place the modal at the root of your layout -->
+<ContactModal open={showModal} onClose={() => showModal = false} />
 
   <style>
 	html {
   scroll-behavior: smooth;
 }
   </style>
+

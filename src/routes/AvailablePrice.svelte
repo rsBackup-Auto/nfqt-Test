@@ -4,7 +4,7 @@
       <div class="pricing-wrapper w-full relative rounded-2xl bg-gradient-to-t from-gray-300 to-white p-0.5 shadow-[0_0px_25px_0px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out hover:shadow-[0_0px_25px_0px_rgba(0,0,0,0.2)]">
         <div class="relative bg-white rounded-2xl p-8 text-center max-w-full w-full z-0 overflow-hidden hover:translate-y-[-5px] transition-all duration-300 ease-in-out h-full flex flex-col justify-between will-change-transform">
           <div>
-            <h3 class="plan-title text-xl text-gray-800">Basic</h3>
+            <h3 class="plan-title text-xl text-gray-800">Warrior in the Garden</h3>
             <span class="plan-title text-xs relative top-[-7px] m-0 text-gray-600">get it anywhere</span>
             <p class="plan-price text-3xl my-2 font-extrabold text-gray-700/90">£99</p>
        
@@ -105,7 +105,7 @@ style="fill:#40C057;">
       <div class="pricing-wrapper w-full relative rounded-2xl bg-gradient-to-t from-orange-100 to-white p-0.5 shadow-[0_0px_25px_0px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out hover:shadow-[0_0px_25px_0px_rgba(0,0,0,0.2)]">
         <div class="relative pricing-cloud rounded-2xl p-8 text-center max-w-full w-full z-0 overflow-hidden hover:translate-y-[-5px] transition-all duration-300 ease-in-out h-full flex flex-col justify-between will-change-transform">
           <div>
-            <h3 class="plan-title text-xl text-gray-800">Intermediate</h3>
+            <h3 class="plan-title text-xl text-gray-800">Plant Yourself</h3>
             <span class="plan-title text-xs relative top-[-7px] m-0 text-blue-600">Includes Basic Plan</span>
             <p class="plan-price text-3xl my-2 font-extrabold text-black/70">£199<span class="text-base text-black">/mo</span></p>
    
@@ -223,7 +223,7 @@ style="fill:#40C057;">
       <div class="pricing-wrapper w-full relative rounded-2xl bg-gradient-to-t from-orange-600/20 to-white p-0.5 shadow-[0_0px_25px_0px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out hover:shadow-[0_0px_25px_0px_rgba(0,0,0,0.2)]">
         <div class="relative bg-white rounded-2xl p-8 text-center max-w-full w-full z-0 overflow-hidden hover:translate-y-[-5px] transition-all duration-300 ease-in-out h-full flex flex-col justify-between will-change-transform">
           <div>
-            <h3 class="plan-title text-xl text-gray-800">Advanced</h3>
+            <h3 class="plan-title text-xl text-gray-800">Grow Like Bamboo</h3>
             <span class="plan-title text-xs relative top-[-7px] m-0 text-indigo-600">All plans included</span>
             <p class="plan-price text-3xl my-2 font-extrabold text-black/70">~£299</p>
            
