@@ -15,13 +15,13 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
         <Header />
 
     </div>
-<div id="about" class=" p-2 mx-4 bg-white/30 border-orange-500 rounded-2xl">
+<div id="about" class=" p-2 mx-20 bg-white/30 border-orange-500 rounded-2xl">
 
     <div class="lg:p-0.5">
-        <div class="max-w -7xl mx-auto">
+        <div class="max-w-7xl mx-auto">
     
             <div class="max- w-7xl mx-auto">
-                <div class="py-5">
+                <div class="pb-5">
                 <p class=" text-orange-500 text-lg text-center">Master the Art</p>
         
                 <h2 class="text-4xl font-semibold text-center">About Us</h2>
@@ -69,7 +69,7 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 <div class=" p-1.5 mx -4 my-10 bg-white/30 border hidden border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
     
     <div class="py-5">
-        <p class=" text-orange-500 text-lg text-center">Master the Art</p>
+        <p class=" text-orange-500/60 text-lg text-center">Master the Art</p>
 
         <h2 class="text-4xl font-semibold text-center">Steps to Master</h2>
     </div>
@@ -90,7 +90,7 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 
 
 
-<div id="services" class=" p-1.5 mx -4  my-10 bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
+<div id="services" class=" p-1.5 mx -20  my-10 max-w-7xl mx-auto bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
 
 <Grid />
 

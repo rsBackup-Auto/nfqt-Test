@@ -84,22 +84,22 @@
 
 
 
-<section class="py-12 bg-orange-900/70 rounded-2xl text-gray-100 sm:py-12 lg:py-16">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="max-w-xl mx-auto text-center xl:max-w-2xl">
-            <h2 class="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">
+<section class="py-12 bg-orange-900/70 rounded-2xl text-gray-100 sm:py-10 lg:py-12">
+    <div class="px -4 mx-auto max-w-7xl sm:px -6 lg:px -8">
+        <div class="max-w-xl mx-auto text-center xl:max-w-3xl">
+            <h2 class="text-2xl font-bold leading-tight text-gray-50 sm:text-2xl xl:text-4xl mb-6">
           
                 Strike with Precision. Train with Purpose.
               
               </h2>
-            <p class="mb-4">
+            <p class="mb-4 text-base">
           Harness ancient wisdom, sharpen your mind, and join a powerful martial arts community.
               </p>
 
         </div>
         
         <div
-            class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
+            class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-4 text-center gap-y-10 sm:gap-x-12 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-8 sm:text-left">
                
            
                 {#each services as service}

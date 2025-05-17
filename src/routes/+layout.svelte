@@ -34,20 +34,7 @@ import '../app.postcss';
 		}
 	];
 
-    onMount(() => {
-        // Delegate click events for anchor links with hashes
-        document.addEventListener('click', (event) => {
-            const target = event.target as HTMLElement;
-            if (target.tagName === 'A' && target.getAttribute('href')?.startsWith('#')) {
-                const id = target.getAttribute('href')!.slice(1);
-                const el = document.getElementById(id);
-                if (el) {
-                    event.preventDefault();
-                    el.scrollIntoView({ behavior: 'smooth' });
-                }
-            }
-        });
-    });
+
 </script>
 
 		<!-- App Bar -->
@@ -68,18 +55,44 @@ import '../app.postcss';
 		
 			
 			{#each buttons as button}
-			<a href="{button.url}" id="{button.Butid}" class="btn btn-sm inline-flex items-center hover:bg-orange-700/50 justify -center h-8 px-2 py-0  text-center dark:border-orange-500/30  no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline">
-				{button.title}
-			</a>
+    <a href="{button.url}" id="{button.Butid}" 
+        class="btn btn-sm relative overflow-hidden inline-flex items-center justify-center h-9 px-6 py-0 mx-1
+        text-center font-medium tracking-wider uppercase text-sm
+        bg-gradient-to-r from-transparent to-transparent
+        border-[1.5px] border-gray-600
+        rounded-full
+        transition-all duration-300 ease-out
+        backdrop-blur-sm
+        hover:border-orange-500/70 hover:text-orange-100
+        hover:shadow-[0_0_15px_rgba(234,88,12,0.2)]
+        before:absolute before:inset-0 before:w-full before:h-full
+        before:bg-orange-700/30 before:scale-x-0 before:origin-right before:transition-transform before:duration-300
+        hover:before:scale-x-100 hover:before:origin-left
+        group">
+        <span class="relative z-10">{button.title}</span>
+    </a>
 {/each}
-				<!-- Contact Us modal button -->
-				<button
-					class="btn btn-sm inline-flex items-center hover:bg-orange-700/50 justify-center h-8 px-2 py-0 text-center dark:border-orange-500/30 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
-					on:click={() => showModal = true}
-					type="button"
-				>
-					Contact Us
-				</button>
+
+<!-- Contact Us modal button -->
+<button
+    class="btn btn-sm relative overflow-hidden inline-flex items-center justify-center h-9 px-6 py-0 mx-1
+    text-center font-medium tracking-wider uppercase text-sm
+    bg-gradient-to-r from-transparent to-transparent
+    border-[1.5px] border-gray-600
+    rounded-full
+    transition-all duration-300 ease-out
+    backdrop-blur-sm
+    hover:border-orange-500/70 hover:text-orange-100
+    hover:shadow-[0_0_15px_rgba(234,88,12,0.2)]
+    before:absolute before:inset-0 before:w-full before:h-full
+    before:bg-orange-700/30 before:scale-x-0 before:origin-right before:transition-transform before:duration-300
+    hover:before:scale-x-100 hover:before:origin-left
+    group"
+    on:click={() => showModal = true}
+    type="button"
+>
+    <span class="relative z-10">Contact Us</span>
+</button>
 				<LightSwitch />
 
 			</svelte:fragment>
@@ -107,7 +120,7 @@ import '../app.postcss';
 <ContactModal open={showModal} onClose={() => showModal = false} />
 
   <style>
-	html {
+:global(html) {
   scroll-behavior: smooth;
 }
   </style>
