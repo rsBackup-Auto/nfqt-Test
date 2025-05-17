@@ -15,12 +15,11 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
         <Header />
 
     </div>
-<div id="about" class=" p-2 mx-20 bg-white/30 border-orange-500 rounded-2xl">
+<div id="about" class=" p-2 mx-20 bg-white/30  border-orange-800 rounded-2xl">
 
-    <div class="lg:p-0.5">
-        <div class="max-w-7xl mx-auto">
+    <div class="lg:p-0.5 hidden">
     
-            <div class="max- w-7xl mx-auto">
+            <div class="max-w-7xl mx-auto">
                 <div class="pb-5">
                 <p class=" text-orange-500 text-lg text-center">Master the Art</p>
         
@@ -29,7 +28,6 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 
     <AboutComp />
     
-        </div>
       </div>
     
 
@@ -40,29 +38,52 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
     </div>
    
 
+    
+<div class="py-5 bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+            
+           
+           
+           <h2 class="flex flex-row flex-nowrap items-center mt-2">
+    <span class="flex-grow block border-t border-black"></span>
+    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium bg-black/70 text-white">
+                    <p class=" text-orange-500 text-base text-center">Master the Art</p>
 
-    <div class=" p-1.5 hidden bg-white/30 border border-orange-800 rounded-2xl">
-
-
-        <div class="lg:p-0.5">
-            <div class="max- w-7xl mx-auto">
-                <div class="py-5">
-                <p class=" text-orange-500 text-lg text-center">Master the Art</p>
-                <h2 class="text-4xl font-semibold text-center">Our Services</h2>
+        About Us
+    </span>
+    <span class="flex-grow block border-t border-black"></span>
+</h2>
+           
+           
+           
             </div>
-        <WhatComp />
+
+
+    <div class=" p-1.5 hi dden max-w-7xl mx-auto bg-white/30 border border-orange-800 rounded-2xl">
+
+
+
+
+
+        
+
+
+        <div class="lg:p -0.5">
+            <div class="max-w-7xl mx-auto">
+            
+                <AboutComp />
+
             </div>
           </div>
-        
-    
-    
-    
-    
+  
     
         </div>
        
     
 
+
+
+
+        
 
 
 
@@ -83,14 +104,36 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 
 
 
-    <p class="pt-5 text-orange-500 text-lg font-semibold text-center">Transform Your Journey </p>
-
-    <h2 class="text-4xl font-semibold text-center mb-12">Martial Arts Training</h2>
 
 
+    <div class="py-5 bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+            
+           
+           
+           <h2 class="flex flex-row flex-nowrap items-center mt-2">
+    <span class="flex-grow block border-t border-black"></span>
+    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium bg-black/70 text-white">
+                    <p class=" text-orange-500 text-base text-center">
+                                Transform Your Journey 
 
 
-<div id="services" class=" p-1.5 mx -20  my-10 max-w-7xl mx-auto bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
+
+                    </p>
+
+        Services
+    </span>
+    <span class="flex-grow block border-t border-black"></span>
+</h2>
+           
+           
+           
+            </div>
+
+
+
+
+
+<div id="services" class=" p-1.5 mx -20  mb -10 max-w-7xl mx-auto bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
 
 <Grid />
 
@@ -103,9 +146,40 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 
 
 <div class=" p -4" id="courses">
-        <h2 class="text-4xl font-semibold text-center mb-2">Courses </h2>
 
-    <p class="text-orange-500 text-lg font-semibold text-center">Choose the right course for you</p>
+
+
+
+
+    <div class="py-5 bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+            
+           
+           
+           <h2 class="flex flex-row flex-nowrap items-center mt-2">
+    <span class="flex-grow block border-t border-black"></span>
+    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium bg-black/70 text-white">
+                    <p class=" text-orange-500 text-base text-center">
+Choose the right course for you
+
+                    </p>
+
+            Courses 
+    </span>
+    <span class="flex-grow block border-t border-black"></span>
+</h2>
+           
+           
+           
+            </div>
+
+
+
+
+
+
+
+
+
 
 <AvailablePrice />
 

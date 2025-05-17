@@ -1,5 +1,5 @@
 
-<div class="space-y-6 lg:px-8 mt-20 text-center group">
+<div class="space-y-6 lg:px-8 mt-0 text-center group">
     <div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 lg:pb-10">
       <div class="pricing-wrapper w-full relative rounded-2xl bg-gradient-to-t from-gray-300 to-white p-0.5 shadow-[0_0px_25px_0px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out hover:shadow-[0_0px_25px_0px_rgba(0,0,0,0.2)]">
         <div class="relative bg-white rounded-2xl p-8 text-center max-w-full w-full z-0 overflow-hidden hover:translate-y-[-5px] transition-all duration-300 ease-in-out h-full flex flex-col justify-between will-change-transform">
