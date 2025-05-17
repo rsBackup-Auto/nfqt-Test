@@ -39,7 +39,7 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
    
 
     
-<div class="py-5 bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+<div class="py-5 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
             
            
            
@@ -106,7 +106,7 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 
 
 
-    <div class="py-5 bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+    <div id="services" class="py-5 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
             
            
            
@@ -133,7 +133,7 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 
 
 
-<div id="services" class=" p-1.5 mx -20  mb -10 max-w-7xl mx-auto bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
+<div  class=" p-1.5 mx -20  mb -10 max-w-7xl mx-auto bg-white/30 border border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
 
 <Grid />
 
@@ -151,7 +151,7 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 
 
 
-    <div class="py-5 bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+    <div class="py-5 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
             
            
            

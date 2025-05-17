@@ -16,7 +16,7 @@
 <div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
     <div class="relative w-full h-full flex items-center justify-center">
         <!-- Modal content -->
-        <div class="bg-white w-full h-full max-w-none max-h-none overflow-auto rounded-none shadow-lg p-0">
+        <div class="bg-black/90 w-full h-full max-w-none max-h-none overflow-auto rounded-none shadow-lg p-0">
             <!-- Close button -->
             <button
                 class="absolute top-4 left-4 z-10 bg-white rounded-full p-2 shadow hover:bg-gray-100 transition"
@@ -40,26 +40,26 @@
                     <div class="flex flex-wrap">
                         <form class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
                             <div class="mb-3 w-full">
-                                <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
+                                <label class="block font-medium mb-[2px] text-white" htmlFor="exampleInput90">
                                     Name
                                 </label>
                                 <input type="text" class="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90" placeholder="Name" />
                             </div>
                             <div class="mb-3 w-full">
-                                <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput91">
+                                <label class="block font-medium mb-[2px] text-white" htmlFor="exampleInput91">
                                     Email
                                 </label>
                                 <input type="email" class="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput91"
                                     placeholder="Enter your email address" />
                             </div>
                             <div class="mb-3 w-full">
-                                <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput92">
+                                <label class="block font-medium mb-[2px] text-white" htmlFor="exampleInput92">
                                     Message
                                 </label>
                                 <textarea class="px-2 py-2 border rounded-[5px] w-full outline-none" id="exampleInput92"></textarea>
                             </div>
                             <button type="button"
-                                class="mb-6 inline-block w-full rounded bg-teal-400 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500">
+                                class="mb-6 inline-block w-full rounded bg-orange-400 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500/40">
                                 Send
                             </button>
                         </form>
@@ -69,7 +69,7 @@
                                 <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                                     <div class="flex items-start">
                                         <div class="shrink-0">
-                                            <div class="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                                            <div class="inline-block rounded-md bg-teal-400-100 p-4 text-white">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                     stroke-width="2" stroke="currentColor" class="h-6 w-6">
                                                     <path stroke-linecap="round" stroke-linejoin="round"
