@@ -10,7 +10,7 @@
 <!-- component -->
 <section class="bg-center border border-orange-800 bg-no-repeat bg-cover md:mx-16   bg-[url('/pexels-photo-734102.jpeg')] bg-gray-500/50 bg-blend-multiply rounded-xl drop-shadow-2xl shadow-2xl">
     <div class="px-2 mx-auto max-w-screen-xl text-center pt-4 pb-8 lg:py-20">
-               <div class="bg-white/60 drop-shadow-2xl shadow-2xl  p-1.5 rounded-lg text-center  lg:mx-8">
+               <div class="bg-white/60  drop-shadow-2xl shadow-2xl  p-1.5 rounded-lg text-center  lg:mx-8">
 
       <h1 class="text-xl  font-extrabold tracking-tight leading-none  text-black md:text-3xl lg:text-3xl xl:text-5xl 2xl:text-6xl">The Art of Bamboo Forest Temple Kung Fu.</h1>
                </div>
@@ -18,9 +18,9 @@
                <p class="text-lg mb-3 font-bold text-white pt-4">{headerSubtitle}</p>
 
 
-        <div class="header-bg h-80 flex  flex-col items-center justify-center">
+        <div class="header-bg h-64 flex  flex-col items-center justify-center">
            
-          <div class="bg-white/60  p-2.5 rounded-lg text-center shadow-lg mx-16">
+          <div class="bg-white/60 border border-yellow-700  p-2.5 rounded-lg text-center shadow-2xl drop-shadow-2xl select-none mx-16">
          
          
               <h1 class="text-3xl lg:text-5xl font-black text-black p-2 uppercase">{headerTitle}</h1>
@@ -36,7 +36,7 @@
           </div>
         
         
-          <div class="flex flex-col space-y -4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 ">
+          <div class="flex flex-col space-y -4 sm:flex-row sm:justify-center  sm:space-y-0 sm:space-x-4 ">
        
 
 
@@ -57,9 +57,7 @@
 
 
 
-            <a href="#" class="inline-flex justify-center hidden text-white hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center  rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                Meet Our Community
-            </a>  
+          
         </div>
 
         
