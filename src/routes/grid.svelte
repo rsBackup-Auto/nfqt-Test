@@ -87,12 +87,12 @@
 <section class="py-3 bg-orange-900/70 rounded-2xl text-gray-100 sm:py-10 lg:py-12">
     <div class="px -4 mx-auto max-w-7xl sm:px -6 lg:px -8">
         <div class="max-w-xl mx-auto text-center xl:max-w-3xl">
-            <h2 class="text-2xl font-bold leading-tight text-gray-50 sm:text-2xl xl:text-4xl mb-6">
+            <h2 class="text-xl font-bold leading-tight text-gray-50 sm:text-2xl xl:text-4xl mb-6">
           
                 Strike with Precision. Train with Purpose.
               
               </h2>
-            <p class="mb-4 text-base">
+            <p class="mb-4 px-2 text-base">
           Harness ancient wisdom, sharpen your mind, and join a powerful martial arts community.
               </p>
 

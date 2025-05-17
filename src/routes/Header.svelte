@@ -8,7 +8,7 @@
 
 
 <!-- component -->
-<section class="bg-center bg-no-repeat bg-cover md:mx-16  bg-[url('/pexels-photo-734102.jpeg')] bg-gray-500/50 bg-blend-multiply rounded-xl drop-shadow-2xl shadow-2xl">
+<section class="bg-center border border-orange-800 bg-no-repeat bg-cover md:mx-16  bg-[url('/pexels-photo-734102.jpeg')] bg-gray-500/50 bg-blend-multiply rounded-xl drop-shadow-2xl shadow-2xl">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-20">
         <h1 class="mx-12 text-4xl font-ext rabold tracking-tight leading-none text-white md:text-4xl lg:text-6xl">The Art of Bamboo Forest Temple Kung Fu.</h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 hidden">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
