@@ -2,9 +2,9 @@
 	    import ContactModal from '$lib/ContactModal.svelte';
     let showModal = false;
     import Footer from '$lib/Footertwo.svelte';
+    import MobNav from '$lib/MobNav.svelte';
 import '../app.postcss';
 	import { AppBar, LightSwitch  } from '@skeletonlabs/skeleton';
-    import { onMount } from 'svelte';
 	let buttons=[
 		{
 						title: "Home",
@@ -37,11 +37,24 @@ import '../app.postcss';
 
 </script>
 
-		<!-- App Bar -->
 
-<div class="grid h-screen grid-rows-[auto_1fr_auto]">
+<div class="lg:hidden flex">
+
+<MobNav />
+
+</div>
+
+
+
+
+
+<!-- Use a single column on small screens; show multiple columns at the medium breakpoint or wider -->
+<div class="grid grid-cols-1 lg:grid-cols -[auto_1fr]">
+  <!-- Hide the sidebar on small screens; show at the medium breakpoint or wider -->
+  <!-- Remains visible at all breakpoints -->
+
 	<!-- Header -->
-	  <header class="sticky lg:top-0 z-10 bg-red-5 00/80 backdrop-blur-sm p-1.5">
+	  <header class="sticky lg:top-0 z-10 bg-red-5 00/80 backdrop-blur-sm p-1.5 hidden lg:block">
 		
 		
 		<AppBar>
@@ -104,6 +117,10 @@ import '../app.postcss';
 	
 	</header>
 	  <!-- Main -->	
+	   <div class=" mx-auto">
+	   
+
+	   </div>
 	   <slot />
 
 	 
@@ -115,6 +132,9 @@ import '../app.postcss';
 
 	  </footer>
   </div>
+
+  
+
 
 <!-- Place the modal at the root of your layout -->
 <ContactModal open={showModal} onClose={() => showModal = false} />

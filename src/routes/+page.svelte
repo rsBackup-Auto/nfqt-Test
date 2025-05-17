@@ -15,7 +15,7 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
         <Header />
 
     </div>
-<div id="about" class=" p-2 mx-20 bg-white/30  border-orange-800 rounded-2xl">
+<div id="about" class=" p-2 md:mx-20 bg-white/30  border-orange-800 rounded-2xl">
 
     <div class="lg:p-0.5 hidden">
     
