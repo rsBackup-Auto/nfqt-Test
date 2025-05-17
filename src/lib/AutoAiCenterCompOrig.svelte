@@ -127,7 +127,7 @@
     class="fixed z-50 bottom-0 right-0 md:bottom-24 md:right-8"
   >
     <div 
-      class="chat-window relative bg-orange-400 border border-yellow-400 rounded-2xl w-full h-full md:w-[400px] md:h-[600px] shadow-2xl shadow-yellow-400/40 chat-3d-effect"
+      class="chat-window relative bg-orange-400 border border-yellow-400 rounded-2xl w-full h-full md:w-[400px] md:h-[600px] shadow-2xl shadow-yellow-400/40 chat-3d-effect fullscreen-mobile"
       style="
         transform: scale({$scale});
         transform-origin: bottom right;
@@ -158,7 +158,7 @@
        
             <button class="text-white hover:text-yellow-300 transition-colors">
               <a 
-                href='https://wa.me/447780116170'
+                href='https://wa.me/447511912754'
                 target="_blank" 
                 rel="noopener noreferrer" 
                 type="button">
@@ -270,5 +270,23 @@
     0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
     70% { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
     100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+  }
+
+  /* Fullscreen chat on mobile */
+  @media (max-width: 768px) {
+    .fullscreen-mobile {
+      position: fixed !important;
+      inset: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      border-radius: 0 !important;
+      max-width: 100vw !important;
+      max-height: 100vh !important;
+      z-index: 9999;
+    }
+    .chat-header {
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+    }
   }
 </style>

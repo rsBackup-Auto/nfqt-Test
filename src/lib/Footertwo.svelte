@@ -9,11 +9,11 @@
         <div class="p-5">
             <div class="text-xs uppercase text-gray-500 font-medium">Support</div>
 
-            <a class="my-3 block" href="/#">Help Center <span class="text-teal-600 text-xs p-1"></span>
+            <a target="blank" class="my-3 block" href="/pdf/AccessibilityStatement.pdf">Accessibility Statement <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Privacy Policy <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/pdf/PrivacyPolicy.pdf">Privacy Policy <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Conditions <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/pdf/Terms&Conditions_nfqt.pdf">Conditions <span class="text-teal-600 text-xs p-1"></span>
             </a>
         </div>
         <div class="p-5">

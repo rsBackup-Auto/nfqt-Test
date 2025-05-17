@@ -5,8 +5,8 @@
         <div class="relative bg-white rounded-2xl p-8 text-center max-w-full w-full z-0 overflow-hidden hover:translate-y-[-5px] transition-all duration-300 ease-in-out h-full flex flex-col justify-between will-change-transform">
           <div>
             <h3 class="plan-title text-xl text-gray-800">Warrior in the Garden</h3>
-            <span class="plan-title text-xs relative top-[-7px] m-0 text-gray-600">get it anywhere</span>
-            <p class="plan-price text-3xl my-2 font-extrabold text-gray-700/90">£99</p>
+            <span class="plan-title text-xs relative top-[-7px] m-0 text-gray-600">3 modules of 22 hours</span>
+            <p class="plan-price text-3xl my-2 font-extrabold text-gray-700/90">£399</p>
        
                                           <div class="relative flex flex-col rounded-lg bg-white shadow-sm border border-slate-200">
                                             <nav class="flex min -w- [240px] flex-col gap-1 p-1.5">
@@ -18,7 +18,7 @@
                                               <p class="text-gray-800  mt-4 text-balance mx-auto">
                 
            
-                                                Access to all classes
+                                               Master Warrior Mindset
                                              
                                                          </p>
                                                                                               <div class="ml-auto grid place-items-center justify-self-end">
@@ -42,7 +42,7 @@ style="fill:#40C057;">
                                                   <p class="text-gray-800 mt-4 text-balance mx-auto">
                 
            
-                                                    Online resources
+                                                   Elemental Weekly Training
                                                  
                                                              </p>
                                                                  
@@ -67,7 +67,7 @@ style="fill:#40C057;">
                                                   <p class="text-gray-800 mt-4 text-balance mx-auto">
                 
            
-                                                    One-to-one training
+                                                  How to Apply Principles Daily
                                                     <span class="plan-title text-xs relative top-[-7px] m-0 text-blue-600">limited Sessions</span>
 
                                                              </p>
@@ -106,8 +106,8 @@ style="fill:#40C057;">
         <div class="relative pricing-cloud rounded-2xl p-8 text-center max-w-full w-full z-0 overflow-hidden hover:translate-y-[-5px] transition-all duration-300 ease-in-out h-full flex flex-col justify-between will-change-transform">
           <div>
             <h3 class="plan-title text-xl text-gray-800">Plant Yourself</h3>
-            <span class="plan-title text-xs relative top-[-7px] m-0 text-blue-600">Includes Basic Plan</span>
-            <p class="plan-price text-3xl my-2 font-extrabold text-black/70">£199<span class="text-base text-black">/mo</span></p>
+            <span class="plan-title text-xs relative top-[-7px] m-0 text-blue-600">3 modules of (26 hours)</span>
+            <p class="plan-price text-3xl my-2 font-extrabold text-black/70">£475</p>
    
 
 
@@ -129,8 +129,7 @@ style="fill:#40C057;">
                   <p class="text-gray-800 mt-4 text-balance mx-auto">
 
 
-                    Personal Training Plan
-                 
+Build endurance for mind & body                 
                              </p>
                                                                   <div class="ml-auto grid place-items-center justify-self-end">
                       <button class="rounded-md border border-transparent p-2.5 text-center text-sm transition-all text-slate-600 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
@@ -179,7 +178,7 @@ style="fill:#40C057;">
                       <p class="text-gray-800 mt-4 text-balance mx-auto">
 
 
-                        One-to-One training
+                        Community support
             <span class="plan-title text-xs relative top-[-7px] m-0 text-blue-600">Unlimited Sessions</span>
                      
                                  </p>
@@ -223,9 +222,9 @@ style="fill:#40C057;">
       <div class="pricing-wrapper w-full relative rounded-2xl bg-gradient-to-t from-orange-600/20 to-white p-0.5 shadow-[0_0px_25px_0px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out hover:shadow-[0_0px_25px_0px_rgba(0,0,0,0.2)]">
         <div class="relative bg-white rounded-2xl p-8 text-center max-w-full w-full z-0 overflow-hidden hover:translate-y-[-5px] transition-all duration-300 ease-in-out h-full flex flex-col justify-between will-change-transform">
           <div>
-            <h3 class="plan-title text-xl text-gray-800">Grow Like Bamboo</h3>
-            <span class="plan-title text-xs relative top-[-7px] m-0 text-indigo-600">All plans included</span>
-            <p class="plan-price text-3xl my-2 font-extrabold text-black/70">~£299</p>
+            <h3 class="plan-title text-xl text-gray-800">Grow Like a Bamboo</h3>
+            <span class="plan-title text-xs relative top-[-7px] m-0 text-indigo-600">2 modules Advanced Techniques,  (28 hours)</span>
+            <p class="plan-price text-3xl my-2 font-extrabold text-black/70">~£499</p>
            
         
         
