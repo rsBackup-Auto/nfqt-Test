@@ -1,7 +1,8 @@
 <script lang="ts">
 import { TabGroup, TabAnchor } from '@skeletonlabs/skeleton';
 import { page } from '$app/stores';
-let showContactModal = false;
+import { createEventDispatcher } from 'svelte';
+const dispatch = createEventDispatcher();
 </script>
 
 <TabGroup 
@@ -13,10 +14,7 @@ let showContactModal = false;
 	border=""
 	class="bg-surface-100-800-token w-full"
 >
-	<TabAnchor href="#home" selected={$page.url.hash === '#home'}>
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<span>Home</span>
-	</TabAnchor>
+
     	<TabAnchor href="#about" selected={$page.url.hash === '#about'}>
 		<svelte:fragment slot="lead">(icon)</svelte:fragment>
 		<span>About Us</span>
@@ -28,14 +26,9 @@ let showContactModal = false;
 		<svelte:fragment slot="lead">(icon)</svelte:fragment>
 		<span>Courses</span>
 	</TabAnchor>
-        <TabAnchor on:click={() => showContactModal = true}>
+        <TabAnchor on:click={() => dispatch('openContact')}>
 		<svelte:fragment slot="lead">(icon)</svelte:fragment>
 		<span>Contact us</span>
 	</TabAnchor>
 	<!-- ... -->
 </TabGroup>
-
-{#if showContactModal}
-    <!-- Your modal component here -->
-    <div class="modal">Contact Form</div>
-{/if}

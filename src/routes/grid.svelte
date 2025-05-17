@@ -84,7 +84,7 @@
 
 
 
-<section class="py-12 bg-orange-900/70 rounded-2xl text-gray-100 sm:py-10 lg:py-12">
+<section class="py-3 bg-orange-900/70 rounded-2xl text-gray-100 sm:py-10 lg:py-12">
     <div class="px -4 mx-auto max-w-7xl sm:px -6 lg:px -8">
         <div class="max-w-xl mx-auto text-center xl:max-w-3xl">
             <h2 class="text-2xl font-bold leading-tight text-gray-50 sm:text-2xl xl:text-4xl mb-6">
@@ -104,7 +104,7 @@
            
                 {#each services as service}
 
-                <div data-sveltekit-preload-data="hover" class="relative overflow-hidden hover:cursor-pointer hover:animate-pulse bg-white shadow-md rounded-xl" on:click={() => openModal(service)}>
+                <div data-sveltekit-preload-data="hover" class="relative overflow-hidden hover:cursor-pointer hover:animate-pulse bg-white m-5 shadow-md rounded-xl" on:click={() => openModal(service)}>
                     
                     
       
@@ -159,9 +159,9 @@
         <img
           src={activeService.imageUrl}
           alt={activeService.title}
-          class="w-60 h-60 max-h-60 mx-auto aspect-auto rounded-2xl shadow-2xl drop-shadow-2xl"
+          class="w-60 h-60 max-h-60 mx-auto aspec t-auto rounded-2xl shadow-2xl drop-shadow-2xl"
           loading="lazy"
-          use:fade
+          transition:fade
           on:load={() => imageLoaded = true}
           style="opacity: {imageLoaded ? 1 : 0}; transition: opacity 0.5s;"
         />

@@ -39,9 +39,7 @@ import '../app.postcss';
 
 
 <div class="lg:hidden flex">
-
-<MobNav />
-
+    <MobNav on:openContact={() => showModal = true} />
 </div>
 
 

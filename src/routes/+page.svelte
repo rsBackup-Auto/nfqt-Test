@@ -9,8 +9,8 @@ import Grid from './grid.svelte';
 import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 </script>
 
-  <main class="bg-gree n-500 p-4 space-y-20 rounded-2xl">
-    <div class="p-4 rounded">
+  <main class="bg-gree n-500 md:p-4 space-y-20 rounded-2xl">
+    <div class="p-1 md:p-4 rounded">
 
         <Header />
 
