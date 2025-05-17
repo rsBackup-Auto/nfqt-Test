@@ -14,13 +14,11 @@
                                                 role="button"
                                                 class="text-slate-800 flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
                                               >
-                                              1.
+                                              
                                               <p class="text-gray-800  mt-4 text-balance mx-auto">
                 
            
-                                               Master Warrior Mindset
-                                             
-                                                         </p>
+Unleash serene strength with mushin mindset, strategic strikes, and holistic mastery.                                                         </p>
                                                                                               <div class="ml-auto grid place-items-center justify-self-end">
                                                   <button class="rounded-md border border-transparent p-2.5 text-center text-sm transition-all text-slate-600 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
                                               
@@ -32,58 +30,9 @@ style="fill:#40C057;">
                                                   </button>
                                                 </div>
                                               </div>
-                                                <div
-                                                role="button"
-                                                  class="text-slate-800  flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
-                                                >
-                                                  2.
-
-
-                                                  <p class="text-gray-800 mt-4 text-balance mx-auto">
-                
-           
-                                                   Elemental Weekly Training
-                                                 
-                                                             </p>
-                                                                 
-                                                  <div class="ml-auto grid place-items-center justify-self-end">
-                                                  <button class="rounded-md border border-transparent p-2.5 text-center text-sm transition-all text-slate-600 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-                                                                                           
-                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 30 30"
-style="fill:#40C057;">
-    <path d="M14.147,19.267c-0.188,0.188-0.442,0.293-0.707,0.293s-0.52-0.105-0.707-0.293L9.28,15.814 c-0.391-0.391-0.391-1.023,0-1.414c0.391-0.391,1.023-0.391,1.414,0l2.746,2.746L25.674,4.911C25.318,4.364,24.702,4,24,4H6 C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V7.414L14.147,19.267z"></path>
-</svg>
-                                                    
-           
-                                                  </button>
-                                                </div>
-                                                </div>
-                                                <div
-                                                  role="button"
-                                                  class="text-slate-800 flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
-                                                >
-                                                  3.
-                                                  
-                                                  <p class="text-gray-800 mt-4 text-balance mx-auto">
-                
-           
-                                                  How to Apply Principles Daily
-                                                    <span class="plan-title text-xs relative top-[-7px] m-0 text-blue-600">limited Sessions</span>
-
-                                                             </p>
-                                                             
-                                                <div class="ml-auto grid place-items-center justify-self-end">
-                                                  <button class="rounded-md border border-transparent p-2.5 text-center text-sm transition-all text-slate-600 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-                                                                                                  
-                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 30 30"
-style="fill:#40C057;">
-    <path d="M14.147,19.267c-0.188,0.188-0.442,0.293-0.707,0.293s-0.52-0.105-0.707-0.293L9.28,15.814 c-0.391-0.391-0.391-1.023,0-1.414c0.391-0.391,1.023-0.391,1.414,0l2.746,2.746L25.674,4.911C25.318,4.364,24.702,4,24,4H6 C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V7.414L14.147,19.267z"></path>
-</svg>
-                                                    
-           
-                                                  </button>
-                                                </div>
-                                              </div>
+                                              
+                 
+                                          
                                             </nav>
                                           </div>
 
@@ -125,12 +74,10 @@ style="fill:#40C057;">
                     role="button"
                     class="text-slate-800 flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
                   >
-                  1.
+                  
                   <p class="text-gray-800 mt-4 text-balance mx-auto">
 
-
-Build endurance for mind & body                 
-                             </p>
+Root unshakable resilience with mushin focus, enduring drills, and holistic growth.                             </p>
                                                                   <div class="ml-auto grid place-items-center justify-self-end">
                       <button class="rounded-md border border-transparent p-2.5 text-center text-sm transition-all text-slate-600 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
                                                                      
@@ -147,33 +94,17 @@ Build endurance for mind & body
                     role="button"
                       class="text-slate-800  flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
                     >
-                      2.
+                  
 
 
-                      <p class="text-gray-800 mt-4 text-balance mx-auto">
-
-
-                        Member Discounts
-                     
-                                 </p>
-                                     
-                      <div class="ml-auto grid place-items-center justify-self-end">
-                      <button class="rounded-md border border-transparent p-2.5 text-center text-sm transition-all text-slate-600 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-                                                                     
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 30 30"
-                        style="fill:#40C057;">
-                            <path d="M14.147,19.267c-0.188,0.188-0.442,0.293-0.707,0.293s-0.52-0.105-0.707-0.293L9.28,15.814 c-0.391-0.391-0.391-1.023,0-1.414c0.391-0.391,1.023-0.391,1.414,0l2.746,2.746L25.674,4.911C25.318,4.364,24.702,4,24,4H6 C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V7.414L14.147,19.267z"></path>
-                        </svg>
-                                                                            
-                                   
-                      </button>
-                    </div>
+                 
+              
                     </div>
                     <div
                       role="button"
                       class="text-slate-800 flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
                     >
-                      3.
+                  
                       
                       <p class="text-gray-800 mt-4 text-balance mx-auto">
 
@@ -248,12 +179,11 @@ Build endurance for mind & body
                     role="button"
                     class="text-slate-800 flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
                   >
-                  1.
+                  
                   <p class="text-gray-800 mt-4 text-balance mx-auto">
 
 
-                    Advanced techniques                 
-                             </p>
+Forge invisible strength with mushin strikes, strategic endurance, and holistic mastery.                             </p>
                                                                   <div class="ml-auto grid place-items-center justify-self-end">
                      <button class="rounded-md border border-transparent p-2.5 text-center text-sm transition-all text-slate-600 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
                                                                       
@@ -270,13 +200,13 @@ Build endurance for mind & body
                     role="button"
                       class="text-slate-800  flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
                     >
-                      2.
+                      
 
 
                       <p class="text-gray-800 mt-4 text-balance mx-auto">
 
 
-                        Online resources
+                       Exclusive workshops
                      
                                  </p>
                                      
@@ -296,12 +226,13 @@ Build endurance for mind & body
                       role="button"
                       class="text-slate-800 flex w-full items-center rounded-md p-2 pl-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100"
                     >
-                      3.
                       
-                      <p class="text-gray-800 mt-4 text-balance mx-auto">
+                      
+                           <p class="text-gray-800 mt-4 text-balance mx-auto">
 
 
-                        Exclusive workshops
+                        Community support
+            <span class="plan-title text-xs relative top-[-7px] m-0 text-blue-600">Unlimited Access</span>
                      
                                  </p>
                                  

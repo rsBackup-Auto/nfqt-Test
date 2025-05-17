@@ -2,44 +2,28 @@
 import AvailablePrice from './AvailablePrice.svelte';
 import Header from './Header.svelte';
 import Steps from './Steps.svelte';
-import WhatComp from './WhatComp.svelte';
 import AboutComp from "./aboutComp.svelte";
 import AboutComp2 from "./aboutComp2.svelte";
 import Grid from './grid.svelte';
 import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 </script>
 
-  <main class="bg-gree n-500 md:p-4 space-y-20 rounded-2xl">
-    <div class="p-1 md:p-4 rounded">
+
+
+
+
+
+  <main class="bg-gree n-500 md:p -4 space-y-8 rounded-2xl">
+    <div class="p-1 lg:p-4 rounded">
 
         <Header />
 
     </div>
-<div id="about" class=" p-2 md:mx-20 bg-white/30  border-orange-800 rounded-2xl">
+<div  class=" p-2 md:mx-20 bg-white/30  border-orange-800 rounded-2xl">
 
-    <div class="lg:p-0.5 hidden">
-    
-            <div class="max-w-7xl mx-auto">
-                <div class="pb-5">
-                <p class=" text-orange-500 text-lg text-center">Master the Art</p>
-        
-                <h2 class="text-4xl font-semibold text-center">About Us</h2>
-            </div>
-
-    <AboutComp />
-    
-      </div>
-    
-
-
-
-
-
-    </div>
-   
 
     
-<div class="py-5 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+<div id="about" class="py-5 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
             
            
            
@@ -84,21 +68,6 @@ import AutoAiCenterComp from '$lib/AutoAiCenterCompOrig.svelte';
 
 
         
-
-
-
-<div class=" p-1.5 mx -4 my-10 bg-white/30 border hidden border-orange-500 rounded-2xl drop-shadow-2xl shadow-2xl">
-    
-    <div class="py-5">
-        <p class=" text-orange-500/60 text-lg text-center">Master the Art</p>
-
-        <h2 class="text-4xl font-semibold text-center">Steps to Master</h2>
-    </div>
-
-    
-<Steps />
-
-</div>
 
 
 

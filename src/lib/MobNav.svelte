@@ -7,8 +7,8 @@ const dispatch = createEventDispatcher();
 
 <TabGroup 
 	justify="justify-center"
-	active="variant-filled-primary"
-	hover="hover:variant-soft-primary"
+	active="variant-filled-warning"
+	hover="hover:variant-soft-warning"
 	flex="flex-1 lg:flex-none"
 	rounded=""
 	border=""
@@ -16,18 +16,18 @@ const dispatch = createEventDispatcher();
 >
 
     	<TabAnchor href="#about" selected={$page.url.hash === '#about'}>
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
+		<svelte:fragment slot="lead">&#x95EE;</svelte:fragment>
 		<span>About Us</span>
 	</TabAnchor>	<TabAnchor href="#services" selected={$page.url.hash === '#services'}>
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
+		<svelte:fragment slot="lead">&#x1F45F;</svelte:fragment>
 		<span>Services</span>
 	</TabAnchor>	
     <TabAnchor href="#courses" selected={$page.url.hash === '#courses'}>
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
+		<svelte:fragment slot="lead">&#x1F56E;</svelte:fragment>
 		<span>Courses</span>
 	</TabAnchor>
         <TabAnchor on:click={() => dispatch('openContact')}>
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
+		<svelte:fragment slot="lead">&#x2706;</svelte:fragment>
 		<span>Contact us</span>
 	</TabAnchor>
 	<!-- ... -->

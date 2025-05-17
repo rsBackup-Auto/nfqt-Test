@@ -1,4 +1,6 @@
 <script>
+    import Social from "./social.svelte";
+
     export let open = false;
     export let onClose = () => {};
 
@@ -38,31 +40,7 @@
                         </div>
                     </div>
                     <div class="flex flex-wrap">
-                        <form class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
-                            <div class="mb-3 w-full">
-                                <label class="block font-medium mb-[2px] text-white" htmlFor="exampleInput90">
-                                    Name
-                                </label>
-                                <input type="text" class="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90" placeholder="Name" />
-                            </div>
-                            <div class="mb-3 w-full">
-                                <label class="block font-medium mb-[2px] text-white" htmlFor="exampleInput91">
-                                    Email
-                                </label>
-                                <input type="email" class="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput91"
-                                    placeholder="Enter your email address" />
-                            </div>
-                            <div class="mb-3 w-full">
-                                <label class="block font-medium mb-[2px] text-white" htmlFor="exampleInput92">
-                                    Message
-                                </label>
-                                <textarea class="px-2 py-2 border rounded-[5px] w-full outline-none" id="exampleInput92"></textarea>
-                            </div>
-                            <button type="button"
-                                class="mb-6 inline-block w-full rounded bg-orange-400 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500/40">
-                                Send
-                            </button>
-                        </form>
+                        <!-- Contact form -->
                         <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
                             <div class="flex flex-wrap">
                                 <!-- ...Contact info blocks, copy from your original... -->
@@ -79,14 +57,16 @@
                                         </div>
                                         <div class="ml-6 grow">
                                             <p class="mb-2 font-bold">
-                                                Technical support
+                                                Contact us
                                             </p>
                                             <p class="text-neutral-500 ">
                                                 support@example.com
                                             </p>
                                             <p class="text-neutral-500 ">
-                                                +1 234-567-89
+                                                86 Hackney Road London E2 7QL
                                             </p>
+
+                                            <Social />
                                         </div>
                                     </div>
                                 </div>

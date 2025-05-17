@@ -91,22 +91,12 @@
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
-  }
-  .pulse-animation {
-    animation: pulse 2s infinite ease-in-out;
-  }
-  @keyframes borderPulse {
-    0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
-    70% { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
-  }
-  .border-pulse {
-    animation: borderPulse 2s infinite;
-  }
+ }
+
   /* Home button styles */
   .home-btn {
     position: fixed;
-    top: 1.5rem;
+    bottom: 1.5rem;
     left: 1.5rem;
     z-index: 100;
     background: rgba(255,255,255,0.85);
@@ -129,7 +119,10 @@
 
 <!-- Home Button above chat -->
 <button class="home-btn" on:click={goHome}>
-  ⬅ Home
+  ⬅ &#x1F3E0; 
+  <span class=" hidden lg:block">
+Home
+  </span>
 </button>
 
 {#if showChat}

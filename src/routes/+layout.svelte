@@ -123,7 +123,7 @@ import '../app.postcss';
 
 	 
 	  <!-- Footer -->
-	  <footer class=" p-4">
+	  <footer class=" p-1 pt-3">
 
 <Footer />
 		
@@ -140,6 +140,12 @@ import '../app.postcss';
   <style>
 :global(html) {
   scroll-behavior: smooth;
+  scroll-padding-top: 0.3rem; /* mobile header height */
+}
+@media (min-width: 1024px) {
+  :global(html) {
+    scroll-padding-top: 9rem; /* desktop header height */
+  }
 }
   </style>
 

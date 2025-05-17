@@ -2,7 +2,7 @@
     import Social from "./social.svelte";
 
 </script>
-<div class="bg-gray-600/80 md:mx-20 rounded-xl">
+<div class="bg-gray-600/80 md:mx -16 rounded-xl">
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6  text-white flex flex-wrap justify-center flex justify-between">
   
     
