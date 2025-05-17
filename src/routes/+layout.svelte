@@ -2,7 +2,7 @@
 	    import ContactModal from '$lib/ContactModal.svelte';
     let showModal = false;
     import Footer from '$lib/Footertwo.svelte';
-    import MobNav from '$lib/MobNav.svelte';
+    import MobNav from './compoents/MobNav.svelte';
 import '../app.postcss';
 	import { AppBar, LightSwitch  } from '@skeletonlabs/skeleton';
 	let buttons=[
