@@ -3,3 +3,9 @@ node_modules
 /build
 /.svelte-kit
 /package
+src/routes/sync.ffs_db
+src/lib/sync.ffs_db
+static/GrisImg/about3.png
+static/GrisImg/about3.png
+static/GrisImg/about4.png
+static/GrisImg/about3.png
