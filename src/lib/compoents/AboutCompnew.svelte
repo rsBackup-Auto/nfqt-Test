@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="mt-4 md:mt-0">
-                <img src="./GrisImg/about3.png" alt="About Us" class="object-cover rounded-lg shadow-md">
+                <img src="./GrisImg/about5.png" alt="About Us" class="object-cover border border-black rounded-lg shadow-md">
             </div>
         </div>
     </div>
