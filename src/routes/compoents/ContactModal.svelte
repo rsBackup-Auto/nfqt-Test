@@ -1,6 +1,6 @@
 <script>
+    import { fade, scale } from 'svelte/transition';
     import Contactin from "./contactin.svelte";
-    import Social from "./social.svelte";
 
     export let open = false;
     export let onClose = () => {};
@@ -16,8 +16,14 @@
 </script>
 
 {#if open}
-<div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
-    <div class="relative w-full h-full flex items-center justify-center">
+<div
+    class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60"
+    transition:fade={{ duration: 300 }}
+>
+    <div
+        class="relative w-full h-full flex items-center justify-center"
+        transition:scale={{ duration: 300 }}
+    >
         <!-- Modal content -->
         <div class="bg-black/90 w-full h-full max-w-none max-h-none overflow-auto rounded-none shadow-lg p-0">
             <!-- Close button -->
@@ -40,12 +46,8 @@
                             </h2>
                         </div>
                     </div>
-                                                                       <Contactin />
-
-                    <div class="flex flex-wrap">
-                        <!-- Contact form -->
-
-                    </div>
+                    <Contactin />
+                   
                 </section>
             </div>
         </div>

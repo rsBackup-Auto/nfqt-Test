@@ -5,10 +5,9 @@
   import { goto } from '$app/navigation'; // Add this line
 
   let showChat = false;
-  let buttonRect = { top: 0, left: 0, width: 0, height: 0 };
+  let animating = false;
 
   // Enhanced animation states
-  let animating = false;
   const scale = tweened(0, { duration: 600, easing: backOut });
   const opacity = tweened(0, { duration: 500, easing: cubicOut });
   const blur = tweened(10, { duration: 400, easing: cubicOut });
@@ -16,6 +15,10 @@
 
   // Open chat with animation on mount
   onMount(() => {
+    openChat();
+  });
+
+  function openChat() {
     animating = true;
     showChat = true;
     opacity.set(0.7);
@@ -24,12 +27,27 @@
     setTimeout(() => {
       contentOpacity.set(1);
       animating = false;
-    }, 300);
-  });
+    }, 400); // Wait for content opacity to finish
+  }
+
+  function closeChat() {
+    animating = true;
+    contentOpacity.set(0); // Fade out content first
+    setTimeout(() => {
+      opacity.set(0); // Fade out background
+      blur.set(10); // Add blur back
+      scale.set(0.9); // Slightly shrink before disappearing
+    }, 200); // Stagger animations for smoothness
+    setTimeout(() => {
+      showChat = false; // Remove chat after animations
+      animating = false;
+    }, 500); // Wait for all animations to complete
+  }
 
   // Home button handler
   function goHome() {
-    goto('/');
+    closeChat();
+    setTimeout(() => goto('/'), 800); // Navigate after animation
   }
 </script>
 
@@ -38,32 +56,7 @@
     0% { background-position: -100% 0; }
     100% { background-position: 200% 0; }
   }
-  .luxury-button {
-    background: linear-gradient(90deg, 
- #78350f 0%, 
-      #a16207 50%, 
-      #78350f 70%,
-      rgba(30, 48, 38, 0.95) 75%, 
-      rgba(22, 36, 28, 0.95) 100%);
-    background-size: 200% 100%;
-    animation: subtleShimmer 8s ease-in-out infinite;
-    border: 1px solid rgba(120, 180, 120, 0.5);
-    box-shadow: 
-      0 4px 6px -1px rgba(0, 0, 0, 0.1), 
-      0 2px 4px -1px rgba(0, 0, 0, 0.06),
-      0 0 0 1px rgba(120, 180, 120, 0.2),
-      inset 0 0 0 1px rgba(255, 255, 255, 0.05);
-    transition: all 0.3s ease;
-  }
-  .luxury-button:hover {
-    border-color: rgba(120, 180, 120, 0.8);
-    box-shadow: 
-      0 10px 15px -3px rgba(0, 0, 0, 0.1), 
-      0 4px 6px -2px rgba(0, 0, 0, 0.05),
-      0 0 0 1px rgba(120, 180, 120, 0.4),
-      inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-    transform: translateY(-2px);
-  }
+
   .emerald-bronze-text {
     background: linear-gradient(to right, #e2e3e386, #e9eee9, #e4eae6, #d6ddce, rgb(215, 223, 219));
     -webkit-background-clip: text;

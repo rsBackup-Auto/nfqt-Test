@@ -1,9 +1,9 @@
 <script lang="ts">
-	    import ContactModal from './compoents/ContactModal.svelte';
+	    import ContactModal from '../compoents/ContactModal.svelte';
     let showModal = false;
-    import Footer from './compoents/Footertwo.svelte';
-    import MobNav from './compoents/MobNav.svelte';
-import '../app.postcss';
+    import Footer from '../compoents/Footertwo.svelte';
+    import MobNav from '../compoents/MobNav.svelte';
+import '../../app.postcss';
 	import { AppBar, LightSwitch  } from '@skeletonlabs/skeleton';
 	let buttons=[
 		{

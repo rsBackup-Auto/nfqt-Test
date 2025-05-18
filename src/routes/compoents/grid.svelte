@@ -6,8 +6,8 @@
         description: "Develop precision and control through our specialized targeting system.",
         moreinfo: "Master the art of precision with our Nine Gates Targeting System, derived from centuries-old Hakka martial wisdom. Learn to strike with surgical accuracy, focusing on the body’s nine key energy gates to disrupt balance, control opponents, and end conflicts swiftly. Whether in self-defence or sparring, our drills blend traditional Southern Fist techniques with modern biomechanics to sharpen your reflexes and cultivate unshakable control.'A warrior’s strength lies not in force, but in knowing where to strike' — Shifu Desmond Williams",
         modaltitle: "Precision Meets Purpose",
-        imageUrl: "IMG_1276.jpeg",
-        webpUrl: "IMG_1276.webp"
+        imageUrl: "GrisImg/2tragetstrikes.jpg",
+        webpUrl: "GrisImg/tragetstrikes.webp"
       },
       {
         title: "Unique Training Methods",
@@ -22,8 +22,8 @@
         description: "Learn the sophisticated system of targeting the body’s 9 specific areas.",
         moreinfo: "Unlock the secrets of the Nine Gates, a strategic combat framework refined over eight generations. This system teaches you to exploit the body’s nine vulnerable zones—from the Crown Gate (top of the head) to the Root Gate (base of the spine)—using minimal effort for maximum impact. Rooted in Taoist philosophy and battlefield-tested by Hakka rebels, the Nine Gates transform combat into a dance of energy and intention.“Why waste ten strikes when one will suffice?”",
         modaltitle: "The Science of Efficiency",
-        imageUrl: "https://via.placeholder.com/400x300",
-        webpUrl: "https://via.placeholder.com/400x300.webp"
+        imageUrl: "GrisImg/ninegates.jpg",
+        webpUrl: "GrisImg/ninegates.webp"
       },
       {
         title: "Community of Practitioners",

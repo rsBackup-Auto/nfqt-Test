@@ -22,6 +22,6 @@ At Nangfang Quantou, we guide you on the Great Path with Bamboo Forest Mantis. B
         </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img class="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full" src="0C82F4A1-BFB3-41C1-9BE5-634A1EE14E82.png" alt="">
+        <img class="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full" src="./GrisImg/about3.png" alt="">
     </div>
 </div>
