@@ -4,7 +4,7 @@
       {
         title: "Targeted Strikes",
         description: "Develop precision and control through our specialized targeting system.",
-        moreinfo: "Master the art of precision with our Nine Gates Targeting System, derived from centuries-old Hakka martial wisdom. Learn to strike with surgical accuracy, focusing on the body’s nine key energy gates to disrupt balance, control opponents, and end conflicts swiftly. Whether in self-defence or sparring, our drills blend traditional Southern Fist techniques with modern biomechanics to sharpen your reflexes and cultivate unshakable control.'A warrior’s strength lies not in force, but in knowing where to strike' — Shifu Desmond Williams",
+        moreinfo: "Master precision with our Nine Gates Targeting System, rooted in Hakka martial wisdom. Learn to strike key energy gates for balance disruption and swift conflict resolution. Blend traditional Southern Fist with modern biomechanics to hone reflexes and control.",
         modaltitle: "Precision Meets Purpose",
         imageUrl: "GrisImg/2tragetstrikes.jpg",
         webpUrl: "GrisImg/tragetstrikes.webp"
@@ -12,15 +12,15 @@
       {
         title: "Unique Training Methods",
         description: "Experience a holistic approach to physical and mental discipline.",
-        moreinfo: "Step into a training philosophy that transcends punches and kicks. Our holistic approach integrates:	Physical Mastery: Bamboo Forest Temple Mantis techniques, qigong breathing, and dynamic forms like the 16 Fluid Motions.	Mental Discipline: Mindfulness drills, tactical improvisation, and the Sarm Bo Gin (Three-Step Arrow) for razor-sharp focus. Adaptability: Train across environments—from urban landscapes to serene gardens—to embody the resilience of Hakka warriors.No spinning kicks. No rigid uniforms. Just results.",
+        moreinfo: "Step beyond punches with our holistic training. Master Bamboo Forest Mantis techniques, qigong, and 16 Fluid Motions. Sharpen focus with mindfulness, tactical improvisation, and Sarm Bo Gin. Train anywhere—urban or serene—to embody Hakka resilience. No spinning kicks or uniforms. Just results.",
         modaltitle: "Beyond the Dojo",
         imageUrl: "GrisImg/uniquetraining.jpg",
         webpUrl: "GrisImg/uniquetraining.webp"
       },
       {
         title: "Nine Gates Concept",
-        description: "Learn the sophisticated system of targeting the body’s 9 specific areas.",
-        moreinfo: "Unlock the secrets of the Nine Gates, a strategic combat framework refined over eight generations. This system teaches you to exploit the body’s nine vulnerable zones—from the Crown Gate (top of the head) to the Root Gate (base of the spine)—using minimal effort for maximum impact. Rooted in Taoist philosophy and battlefield-tested by Hakka rebels, the Nine Gates transform combat into a dance of energy and intention.“Why waste ten strikes when one will suffice?”",
+        description: "Learn the sophisticated system of targeting the body's 9 specific areas.",
+        moreinfo: "Master the Nine Gates, a combat system honed over generations. Target nine vulnerable zones—from Crown to Root Gate—with minimal effort for maximum impact. Rooted in Taoist philosophy and Hakka rebel tactics, it turns combat into a dance of energy.",
         modaltitle: "The Science of Efficiency",
         imageUrl: "GrisImg/ninegates.jpg",
         webpUrl: "GrisImg/ninegates.webp"
@@ -28,7 +28,7 @@
       {
         title: "Community of Practitioners",
         description: "Join our inclusive community and grow together in your martial arts journey.",
-        moreinfo: "Join a global family of martial artists, healers, and seekers united by the Nangfang Quantou ethos. Our community thrives on: Inclusivity: All ages, backgrounds, and skill levels welcome. Mentorship: Learn directly from 8th-generation lineage holder Shifu Desmond Williams. Shared Journeys: Workshops, retreats, and sparring circles where ego is checked at the door. From graffiti artists to grandmothers, we believe Kung Fu is for everyone.",
+        moreinfo: "Join our global Nangfang Quantou family, uniting martial artists and healers. Embrace inclusivity for all, learn from 8th-generation Shifu Desmond Williams, and grow through workshops and sparring. From graffiti artists to grandmothers, Kung Fu is for everyone. Check ego at the door and rise together.",
         modaltitle: "Grow Together, Rise Together",
         imageUrl: "GrisImg/comunity.JPEG",
         webpUrl: "GrisImg/comunity.webp"
@@ -36,7 +36,7 @@
       {
         title: "Mental Awareness",
         description: "Elevate your understanding and connection between mind and body in combat.",
-        moreinfo: "Combat begins in the mind. Our curriculum sharpens your mental edge through:	Presence Training: Meditative drills to stay calm under pressure. Neuro-Kinetic Optimization: Syncing thought and action for split-second decisions. Strategic Awareness: Learn to “read” opponents like a chessboard, anticipating moves before they happen.“The stillness between breaths is where battles are won.”",
+        moreinfo: "Combat starts in the mind. Our curriculum sharpens your mental edge with meditative presence training to stay calm, neuro-kinetic optimization for split-second decisions, and strategic awareness to anticipate opponents' moves like a chessboard. “The stillness between breaths wins battles.”",
         modaltitle: "Mind Over Fist",
         imageUrl: "GrisImg/mentalawareness.jpg",
         webpUrl: "GrisImg/mentalawareness.webp"
@@ -44,7 +44,7 @@
       {
         title: "Spiritual Depth",
         description: "Emmerse yourself in the timeless wisdom and spiritual aspects of Kung Fu.",
-        moreinfo: "Immerse yourself in the spiritual roots of martial arts. Our teachings intertwine:	Taoist Principles: Balance yin and yang, flow with wu wei (effortless action). Buddhist Mindfulness: Transform fear into clarity through Zen-inspired practices. Ancestral Wisdom: Connect to the legacy of Hakka warriors and Bamboo Forest Temple monks. Kung Fu isn’t just a skill—it’s a path to awakening.",
+        moreinfo: "Embrace Kung Fu as a spiritual path. Blend Taoist yin-yang balance and wu wei, Buddhist mindfulness for clarity, and Hakka warrior wisdom from Bamboo Forest Temple. More than a skill, Kung Fu is a journey to awakening.",
         modaltitle: "Kung Fu as a Way of Life",
         imageUrl: "GrisImg/spiritualdepth.jpg",
         webpUrl: "GrisImg/spiritualdepth.webp"
