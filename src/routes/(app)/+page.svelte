@@ -1,11 +1,10 @@
 <script lang="ts">
-import AvailablePrice from '../compoents/AvailablePrice.svelte';
-import Header from '../compoents/Header.svelte';
-import Steps from '../Steps.svelte';
-import AboutComp from "../compoents/aboutComp.svelte";
-import AboutComp2 from "../aboutComp2.svelte";
-import Grid from '../compoents/grid.svelte';
-import AutoAiCenterComp from '../compoents/AutoAiCenterCompOrig.svelte';
+import AvailablePrice from '$lib/compoents/AvailablePrice.svelte';
+import Header from '$lib/compoents/Header.svelte';
+import AboutComp from "$lib/compoents/aboutComp.svelte";
+import Grid from '$lib/compoents/grid.svelte';
+import AutoAiCenterComp from '$lib/compoents/AutoAiCenterCompOrig.svelte';
+    import AboutCompnew from '$lib/compoents/AboutCompnew.svelte';
 </script>
 
 
@@ -54,7 +53,7 @@ import AutoAiCenterComp from '../compoents/AutoAiCenterCompOrig.svelte';
         <div class="lg:p -0.5">
             <div class="max-w-7xl mx-auto">
             
-                <AboutComp />
+                <AboutCompnew />
 
             </div>
           </div>
@@ -159,8 +158,6 @@ Choose the right course for you
         <p class="pt-5 text-orange-500 text-lg font-semibold text-center">Ancient Traditions</p>
 
         <h2 class="text-4xl font-semibold text-center mb-12">Discover the Art</h2>
-
-<AboutComp2 />
 
     </div>
 

@@ -1,8 +1,8 @@
 <script lang="ts">
-	    import ContactModal from '../compoents/ContactModal.svelte';
+	    import ContactModal from '$lib/compoents/ContactModal.svelte';
     let showModal = false;
-    import Footer from '../compoents/Footertwo.svelte';
-    import MobNav from '../compoents/MobNav.svelte';
+    import Footer from '$lib/compoents/Footertwo.svelte';
+    import MobNav from '$lib/compoents/MobNav.svelte';
 import '../../app.postcss';
 	import { AppBar, LightSwitch  } from '@skeletonlabs/skeleton';
 	let buttons=[
@@ -57,9 +57,12 @@ import '../../app.postcss';
 		
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<img class="h-32 w-32 rounded-xl drop-shadow-2xl shadow-2xl " src="/image0.jpeg" alt="">
+				<a href="/">
+      <img class="h-32 w-32 rounded-xl drop-shadow-2xl shadow-2xl hover:scale-110" src="/image0.jpeg" alt="Logo">
 
-				<strong class="pl-8 text-lg uppercase hidden lg:flex">Nangfang Quantou</strong>
+        </a>
+
+				<strong class="pl-8 xl:text-lg uppercase hidden lg:flex">Nangfang Quantou</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 		
