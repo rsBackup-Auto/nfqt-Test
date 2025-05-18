@@ -2,12 +2,12 @@
     import Social from "./social.svelte";
 
 </script>
-<div class="bg-gray-600/80 md:mx -16 rounded-xl">
-    <div class="max-w-screen-xl mx-auto px-4 sm:px-6  text-white flex flex-wrap justify-center flex justify-between">
+<div class="dark:bg-slate-800/80 bg-gray-500/20 md:mx-20 rounded-xl">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6  text -white flex flex-wrap flex justify-between">
   
     
         <div class="p-5">
-            <div class="text-xs uppercase text-gray-500 font-medium">Support</div>
+            <div class="text-xs uppercase font-bold">Support</div>
 
             <a target="blank" class="my-3 block" href="/pdf/AccessibilityStatement.pdf">Accessibility Statement <span class="text-teal-600 text-xs p-1"></span>
             </a>
@@ -17,14 +17,14 @@
             </a>
         </div>
         <div class="p-5">
-            <div class="text-xs uppercase text-gray-500 font-medium">Contact us</div>
+            <div class="text-xs uppercase font-bold">Contact us</div>
 
  <Social />
         </div>
         
     </div>
     		
-<p class=" py-5  text-center">
+<p class=" pb-5 font-bold  text-center">
 	(
 
 	©

@@ -52,7 +52,7 @@ import '../app.postcss';
   <!-- Remains visible at all breakpoints -->
 
 	<!-- Header -->
-	  <header class="sticky lg:top-0 z-10 bg-red-5 00/80 backdrop-blur-sm p-1.5 hidden lg:block">
+	  <header class="sticky lg:top-0 z-10 bg-red-5 00/80 backdrop-blur-sm hidden lg:block">
 		
 		
 		<AppBar>
@@ -123,7 +123,7 @@ import '../app.postcss';
 
 	 
 	  <!-- Footer -->
-	  <footer class=" p-1 pt-3">
+	  <footer class=" p-1 py-3">
 
 <Footer />
 		

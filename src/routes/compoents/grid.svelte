@@ -53,6 +53,7 @@
     
     let activeService = null;
     let imageLoaded = false;
+    let modalRef: HTMLDivElement | null = null;
 
     function openModal(service) {
       activeService = service;
@@ -63,6 +64,13 @@
     }
 
     $: if (!activeService) imageLoaded = false;
+
+    // Scroll modal into view when it opens
+    $: if (activeService && modalRef) {
+      setTimeout(() => {
+        modalRef?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 0);
+    }
   </script>
   
 
@@ -146,33 +154,42 @@
         </div>
 
         {#if activeService}
-        <div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 overflow-auto">
-          <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-8 relative max-h-[90vh] overflow-y-auto">
-            <button class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl" on:click={closeModal}>&times;</button>
-            <h2 class="text-2xl font-bold text-center text-black mb-2">{activeService.title}</h2>
-            <div class="w-60 h-60 max-h-60 mx-auto mb-4 relative">
-      {#if !imageLoaded}
-        <div class="absolute inset-0 bg-gray-200 animate-pulse rounded-2xl"></div>
-      {/if}
-      <picture>
-        <source srcset={activeService.webpUrl} type="image/webp" />
-        <img
-          src={activeService.imageUrl}
-          alt={activeService.title}
-          class="w-60 h-60 max-h-60 mx-auto aspec t-auto rounded-2xl shadow-2xl drop-shadow-2xl"
-          loading="lazy"
-          transition:fade
-          on:load={() => imageLoaded = true}
-          style="opacity: {imageLoaded ? 1 : 0}; transition: opacity 0.5s;"
-        />
-      </picture>
+  <div
+    class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60"
+    on:click={(e) => {
+      if (e.target === e.currentTarget) closeModal();
+    }}
+  >
+    <div 
+      bind:this={modalRef}
+      class="bg-white rounded-xl shadow-xl w-full max-w-md mx-2 p-4 sm:p-8 relative my-8 overflow-y-auto"
+      style="max-height: calc(100vh - 2rem);"
+    >
+      <button class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl" on:click={closeModal}>&times;</button>
+      <h2 class="text-2xl font-bold text-center text-black mb-2">{activeService.title}</h2>
+      <div class="w-60 h-60 max-h-60 mx-auto mb-4 relative">
+        {#if !imageLoaded}
+          <div class="absolute inset-0 bg-gray-200 animate-pulse rounded-2xl"></div>
+        {/if}
+        <picture>
+          <source srcset={activeService.webpUrl} type="image/webp" />
+          <img
+            src={activeService.imageUrl}
+            alt={activeService.title}
+            class="w-60 h-60 max-h-60 mx-auto aspect-auto rounded-2xl shadow-2xl drop-shadow-2xl"
+            loading="lazy"
+            transition:fade
+            on:load={() => imageLoaded = true}
+            style="opacity: {imageLoaded ? 1 : 0}; transition: opacity 0.5s;"
+          />
+        </picture>
+      </div>
+      <h2 class="text-2xl font-bold text-black mb-2">{activeService.modaltitle}</h2>
+      <p class="mb-4 text-black">{activeService.moreinfo}</p>
+      <button class="mt-2 px-4 py-2 bg-orange-700 text-white rounded hover:bg-orange-800" on:click={closeModal}>
+        Close
+      </button>
     </div>
-            <h2 class="text-2xl font-bold text-black mb-2">{activeService.modaltitle}</h2>
-            <p class="mb-4 text-black">{activeService.moreinfo}</p>
-            <button class="mt-2 px-4 py-2 bg-orange-700 text-white rounded hover:bg-orange-800" on:click={closeModal}>
-              Close
-            </button>
-          </div>
-        </div>
-      {/if}
+  </div>
+{/if}
 </section>

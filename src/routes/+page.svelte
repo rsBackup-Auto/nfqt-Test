@@ -1,5 +1,5 @@
 <script lang="ts">
-import AvailablePrice from './AvailablePrice.svelte';
+import AvailablePrice from './compoents/AvailablePrice.svelte';
 import Header from './compoents/Header.svelte';
 import Steps from './Steps.svelte';
 import AboutComp from "./compoents/aboutComp.svelte";

@@ -124,7 +124,7 @@
   <!-- Chat window with grow animation -->
   <div 
     bind:this={chatElement}
-    class="fixed z-50 bottom-0 left-0 lg:bottom-24 lg:right-8"
+    class="fixed z-50 bottom-0 left-0 lg:bottom-24 lg:right-8 lg:left-auto"
   >
     <div 
       class="chat-window relative bg-orange-400 border border-yellow-400 rounded-2xl w-full h-full md:w-[400px] md:h-[600px] shadow-2xl shadow-yellow-400/40 chat-3d-effect fullscreen-mobile"
