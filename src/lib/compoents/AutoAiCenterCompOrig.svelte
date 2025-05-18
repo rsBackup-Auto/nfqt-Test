@@ -85,7 +85,7 @@
 
 
 <!-- Luxury Chat Toggle Button -->
-<div class="fixed bottom-14  right-4   md:bottom-4 md:right-4 md:w-auto z-50">
+<div class="fixed bottom-2 right-4 md:bottom-4 md:right-4 md:w-auto z-50">
   <div 
     bind:this={buttonElement}
     class="luxury-button bg-[#ac6e2c] text-white border rounded-2xl border-yellow-400 shadow-lg shadow-yellow-400/40 text-sm p-4 md:rounded-lg flex justify-between items-center border-pulse transition-all duration-300"

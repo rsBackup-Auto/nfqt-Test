@@ -1,10 +1,9 @@
 <script lang="ts">
 import AvailablePrice from '$lib/compoents/AvailablePrice.svelte';
 import Header from '$lib/compoents/Header.svelte';
-import AboutComp from "$lib/compoents/aboutComp.svelte";
 import Grid from '$lib/compoents/grid.svelte';
 import AutoAiCenterComp from '$lib/compoents/AutoAiCenterCompOrig.svelte';
-    import AboutCompnew from '$lib/compoents/AboutCompnew.svelte';
+import AboutCompnew from '$lib/compoents/AboutCompnew.svelte';
 </script>
 
 
