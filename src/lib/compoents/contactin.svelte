@@ -36,7 +36,7 @@
 
                 <h2 class="mt-4 text-base font-medium text-white">Email</h2>
                 <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Speak to our friendly team.</p>
-                <a class="mt-2 text-orange-500" href="mailto:email@example.com"> email@example.com </a>
+                <a class="mt-2 text-orange-500" href="mailto:info@nangfangquantou.com"> info@nangfangquantou.com</a>
             </div>
 
             <div class="p-4 rounded-lg  md:p-6 bg-gray-800">

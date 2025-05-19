@@ -2,7 +2,8 @@
   import { onMount } from 'svelte';
   import { tweened } from 'svelte/motion';
   import { cubicOut } from 'svelte/easing';
-  
+  import { PUBLIC_baseUrl_key } from '$env/static/public';
+
   let showChat = false;
   let buttonElement;
   let buttonText = 'Start a Chat';
@@ -18,7 +19,7 @@
   const opacity = tweened(0, { duration: 300, easing: cubicOut });
   
   // Base URL for the chat
-  const baseUrl = 'https://bot.voicewave.uk/nfqt-2';
+  const baseUrl = PUBLIC_baseUrl_key;
   
   function toggleChat() {
     if (animating) return;

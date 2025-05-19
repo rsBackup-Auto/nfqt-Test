@@ -3,6 +3,7 @@
   import { tweened } from 'svelte/motion';
   import { cubicOut, backOut } from 'svelte/easing';
   import { goto } from '$app/navigation'; // Add this line
+  import { PUBLIC_FULLbaseUrl_key } from '$env/static/public';
 
   let showChat = false;
   let animating = false;
@@ -134,7 +135,7 @@ Home
     >
       <iframe
         title="chat"
-        src="https://bot.voicewave.uk/book-now-tpg7m69"
+        src={PUBLIC_FULLbaseUrl_key}
         style="border: none; width: 100vw; height: 100vh; max-width: 100vw; max-height: 100vh; display: block;"
       ></iframe>
     </div>
