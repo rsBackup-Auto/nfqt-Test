@@ -4,30 +4,24 @@ import Header from '$lib/compoents/Header.svelte';
 import Grid from '$lib/compoents/grid.svelte';
 import AutoAiCenterComp from '$lib/compoents/AutoAiCenterCompOrig.svelte';
 import AboutCompnew from '$lib/compoents/AboutCompnew.svelte';
+    let headerTitle = "About Us";
+
 </script>
 
-
-
-
-
-
-  <main class="bg-gree n-500 md:p -4 space-y-8 rounded-2xl">
+<main class="bg-gree n-500 md:p -4 space-y-8 rounded-2xl">
     <div class="p-1 lg:p-4 rounded">
 
         <Header />
 
     </div>
-<div  class=" p-2 md:mx-20 bg-white/30  border-orange-800 rounded-2xl">
 
-
+    <div  class=" p-2 md:mx-20 bg-white/30  border-orange-800 rounded-2xl">
     
-<div id="about" class="py-5 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+<div id="about" class="py-5  dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
             
-           
-           
            <h2 class="flex flex-row flex-nowrap items-center mt-2">
     <span class="flex-grow block border-t border-black"></span>
-    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium bg-black/70 text-white">
+    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium dark:bg-black/70 bg-white/30 drop-shadow-2xl shadow-2xl">
                     <p class=" text-orange-500 text-base text-center">Master the Art</p>
 
         About Us
@@ -79,7 +73,7 @@ import AboutCompnew from '$lib/compoents/AboutCompnew.svelte';
            
            <h2 class="flex flex-row flex-nowrap items-center mt-2">
     <span class="flex-grow block border-t border-black"></span>
-    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium bg-black/70 text-white">
+    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium dark:bg-black/70 bg-white/30 drop-shadow-2xl shadow-2xl">
                     <p class=" text-orange-500 text-base text-center">
                                 Transform Your Journey 
 
@@ -124,7 +118,7 @@ import AboutCompnew from '$lib/compoents/AboutCompnew.svelte';
            
            <h2 class="flex flex-row flex-nowrap items-center mt-2">
     <span class="flex-grow block border-t border-black"></span>
-    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium bg-black/70 text-white">
+    <span class="flex-none block mx-4 px-4 py-2.5 text-4xl rounded leading-none font-medium dark:bg-black/70 bg-white/30 drop-shadow-2xl shadow-2xl">
                     <p class=" text-orange-500 text-base text-center">
 Choose the right course for you
 

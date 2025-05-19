@@ -41,7 +41,7 @@
                 <section class="mb-32">
                     <div class="flex justify-center">
                         <div class="text-center md:max-w-xl lg:max-w-3xl">
-                            <h2 class="mb-12 px-6 text-3xl font-bold">
+                            <h2 class="mb-3 hidden px-6 text-3xl font-bold">
                                 Contact us
                             </h2>
                         </div>

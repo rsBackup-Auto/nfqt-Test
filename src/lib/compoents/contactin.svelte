@@ -2,7 +2,7 @@
     import Social from "./social.svelte";
 
 </script>
-<section class="bg-gray-900/30 rounded-2xl">
+<section class="bg -gray-900/30 rounded-2xl">
     <div class="container px-6 py-3  mx-auto">
         <div class="text-center">
             <p class="font-medium text-orange-500 ">NFQT</p>
