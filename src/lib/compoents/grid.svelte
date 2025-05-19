@@ -92,8 +92,8 @@
 
 
 
-<section class="py-3 bg-orange-900/70 rounded-2xl text-gray-100 sm:py-10 lg:py-12">
-    <div class="px -4 mx-auto max-w-7xl sm:px -6 lg:px -8">
+<section class="py-3 bg-orange-900/70 rounded-2xl text-gray-100 sm:py-10">
+    <div class="px -4 mx-auto max-w-7xl lg:px -8">
         <div class="max-w-xl mx-auto text-center xl:max-w-3xl">
             <h2 class="text-xl font-bold leading-tight text-gray-50 sm:text-2xl xl:text-4xl mb-6">
           
@@ -107,12 +107,12 @@
         </div>
         
         <div
-            class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-4 text-center gap-y-10 sm:gap-x-12 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-8 sm:text-left">
+            class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-4 text-center gap- y-10 sm:gap-x-12 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-8 sm:text-left">
                
            
                 {#each services as service}
 
-                <div data-sveltekit-preload-data="hover" class="relative overflow-hidden hover:cursor-pointer hover:animate-pulse bg-white m-5 shadow-md rounded-xl" on:click={() => openModal(service)}>
+                <div data-sveltekit-preload-data="hover" class="relative overflow-hidden hover:cursor-pointer hover:animate-pulse bg-white/90 m-5 shadow-xl drop-shadow-xl rounded-xl" on:click={() => openModal(service)}>
                     
                     
       
@@ -131,7 +131,7 @@
                                 stroke-width="2" stroke-linecap="round"></ellipse>
                         </svg>
                         <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">{service.title}</h3>
-                        <p class="mt-6 text-base text-gray-600">
+                        <p class="mt-6 text-base text-gray-900">
                             {service.description}
 
                         </p>
