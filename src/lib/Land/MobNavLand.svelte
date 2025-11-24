@@ -15,6 +15,10 @@ const dispatch = createEventDispatcher();
 	class="bg-surface-100-800-token w-full"
 >
 
+    	<TabAnchor href="/landing" selected={$page.url.hash === '#about'}>
+		<svelte:fragment slot="lead">&#x95EE;</svelte:fragment>
+		<span>Home</span>
+	</TabAnchor>
     	<TabAnchor href="/landing/about" selected={$page.url.hash === '#about'}>
 		<svelte:fragment slot="lead">&#x95EE;</svelte:fragment>
 		<span>About</span>

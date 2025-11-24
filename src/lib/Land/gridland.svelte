@@ -6,8 +6,8 @@
       description: string;
       moreinfo: string;
       modaltitle: string;
-      imageUrl: string; // fallback or secondary image
-      webpUrl: string;  // primary image shown normally
+      imageUrl: string;
+      webpUrl: string;
     };
 
     let services: Service[] = [
@@ -67,10 +67,8 @@
     let lastFocused: HTMLElement | null = null;
 
     function openModal(service: Service) {
-      // remember the element that had focus
       lastFocused = document.activeElement as HTMLElement | null;
       activeService = service;
-      // after modal renders, move focus into it
       tick().then(() => {
         modalRef?.focus();
       });
@@ -78,7 +76,6 @@
     
     function closeModal() {
       activeService = null;
-      // restore focus to previously focused element
       setTimeout(() => {
         try {
           lastFocused?.focus?.();
@@ -228,12 +225,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateX(100%);
+    transform: translateX(110%);
     opacity: 0;
     transition: transform 350ms cubic-bezier(.22,.9,.35,1), opacity 250ms ease;
     will-change: transform, opacity;
   }
-  /* On hover, slide hover-image in and reveal it */
+
   .card:hover .img-hover {
     transform: translateX(0%);
     opacity: 1;
