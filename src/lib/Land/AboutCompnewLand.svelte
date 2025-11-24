@@ -7,7 +7,7 @@
                   Discover our training methods that combine ancient wisdom with modern techniques. Watch master instructors demonstrate the precision and discipline of our martial way.
                 </p>
                 <p class="mt-3 text-gray-600 dark:text-black text-base">
-                  Learn more about our history, training philosophy, and instructors on the <a href="/landing/about" class="text-blue-600 hover:underline" sveltekit:prefetch>About page</a>. <a href="/Landing/contact" class="text-blue-700 hover:underline">Contact Us & Book a Trial</a> or jump to available classes in <a href="/landing/course" class="text-blue-600 hover:underline">Courses</a>.
+                  Learn more about our history, training philosophy, and instructors on the <a href="/landing/about" class="text-blue-600 hover:underline" sveltekit:prefetch>About page</a>. <a href="/landing/contact" class="text-blue-700 hover:underline">Contact Us & Book a Trial</a> or jump to available classes in <a href="/landing/course" class="text-blue-600 hover:underline">Courses</a>.
                 </p>
 
               
