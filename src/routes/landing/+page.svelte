@@ -16,7 +16,7 @@ import AboutCompnewLand from '$lib/Land/AboutCompnewLand.svelte';
 
     <div  class=" p-2 md:mx-20 bg-white/30  border-orange-800 rounded-2xl">
     
-<div id="about" class="py-5  dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+<div id="about" class="py-5 my-10  dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
             
            <h2 class="flex flex-row flex-nowrap items-center mt-2">
     <span class="flex-grow block border-t border-black"></span>
@@ -66,7 +66,7 @@ import AboutCompnewLand from '$lib/Land/AboutCompnewLand.svelte';
 
 
 
-    <div id="services" class="py-5 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+    <div id="services" class="py-5 my-10 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
             
            
            
@@ -111,7 +111,7 @@ import AboutCompnewLand from '$lib/Land/AboutCompnewLand.svelte';
 
 
 
-    <div class="py-5 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
+    <div class="py-5 my-10 dark:bg-orange-800/5 rounded-2xl mx- 80 max-w-lg mx-auto text-center">
             
            
            

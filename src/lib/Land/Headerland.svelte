@@ -14,7 +14,7 @@
       <h1 class="text-xl  font-extrabold tracking-tight leading-none  text-black md:text-3xl lg:text-3xl xl:text-5xl 2xl:text-6xl">Bamboo Forest Temple Mantis Kung Fu.</h1>
                </div>
                    
-               <p class="text-lg mb-3 font-bold text-white pt-4">{headerSubtitle}</p>
+               <p class="text-xl mb-3 font-bold text-white pt-4">{headerSubtitle}</p>
 
 
         <div class="header-bg h-32 flex  flex-col items-center justify-center">

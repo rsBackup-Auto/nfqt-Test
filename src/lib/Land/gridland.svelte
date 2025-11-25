@@ -88,7 +88,6 @@
     function handleCardKey(e: KeyboardEvent, service: Service) {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
-        // remember the card element
         lastFocused = e.currentTarget as HTMLElement;
         openModal(service);
       }
@@ -125,7 +124,6 @@
 
     $: if (!activeService) imageLoaded = false;
 
-    // Scroll modal into view when it opens
     $: if (activeService && modalRef) {
       setTimeout(() => {
         modalRef?.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -144,20 +142,18 @@
       {#each services as service (service.title)}
         <article class="card bg-white/90 rounded-xl shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-200 cursor-pointer" on:click={() => openModal(service)} tabindex="0" on:keydown={(e) => handleCardKey(e, service)}>
           <div class="relative h-44 md:h-56 w-full overflow-hidden">
-            <!-- Default image (visible normally) -->
             <img src={service.webpUrl} alt={service.title} class="img-default w-full h-full object-cover" loading="lazy" />
 
-            <!-- Hover image (slides in from the right) -->
             <img src={service.imageUrl} alt={`${service.title} hover`} class="img-hover absolute inset-0 w-full h-full object-cover" loading="lazy" />
 
-            <!-- Bottom info bar that slides up on hover -->
+            
             <div class="image-info absolute left-0 bottom-0 w-full px-4 py-2 text-white">
               <div class="text-sm font-semibold">{service.title}</div>
             </div>
           </div>
           <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">{service.title}</h3>
-            <p class="mt-3 text-sm text-gray-400">{service.description}</p>
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white">{service.title}</h3>
+            <p class="mt-3 text-lg text-gray-900 dark:text-gray-400">{service.description}</p>
             <div class="mt-4">
               <button class="inline-block px-3 py-1 text-sm bg-orange-700 text-white rounded-md">Learn more</button>
             </div>
@@ -215,12 +211,10 @@
 
 <style>
   .card { display: flex; flex-direction: column; }
-  /* Default image behavior */
   .card .img-default {
     transition: transform 300ms ease, filter 300ms ease, opacity 300ms ease;
     will-change: transform, filter, opacity;
   }
-  /* Hover image initially off to the right and invisible */
   .card .img-hover {
     position: absolute;
     top: 0;
@@ -235,14 +229,12 @@
     transform: translateX(0%);
     opacity: 1;
   }
-  /* Subtle transform/blur to the default image on hover to emphasize the incoming image */
   .card:hover .img-default {
     transform: scale(0.96);
     filter: blur(2px) saturate(.9);
     opacity: 0.6;
   }
 
-  /* Image info bar slides up */
   .card .image-info {
     background: linear-gradient(180deg, rgba(0,0,0,0.0), rgba(0,0,0,0.6));
     transform: translateY(40%);

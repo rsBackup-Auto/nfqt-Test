@@ -45,8 +45,9 @@
 </script>
 
 <section class="bg-white/60 dark:bg-gray-800/60 rounded-2xl p-6 shadow-lg max-w-lg mx-auto">
-  <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Contact Us</h3>
-  <p class="mt-2 text-gray-600 dark:text-gray-300 text-sm">Have questions or want to join? Send us a message and we'll get back to you.</p>
+  <h3 class="text-2xl font-semibold text-gray-900 text-center dark:text-white">Contact Us</h3>
+  <p class="mt-2 text-center text-gray-600 dark:text-gray-300 text-lg">Have questions or want to join?</p>
+  <p class="mt-2 text-center text-gray-600 dark:text-gray-300 text-base">Send us a message and we'll get back to you.</p>
 
   <form class="mt-4 space-y-4" on:submit|preventDefault={handleSubmit}>
     <div>

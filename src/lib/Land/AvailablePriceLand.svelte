@@ -9,6 +9,7 @@
 <div class="space-y-6 lg:px-8 mt-0 text-center group">
   <div class="mx-auto grid justify-center gap-12 sm:grid-cols-1 md:max-w-[64rem] md:grid-cols-3 lg:pb-10">
     <PricingCard
+
       title="Warrior in the Garden"
       subtitle="3 modules of (22 hours)"
       features={[

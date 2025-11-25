@@ -14,8 +14,8 @@
       <div class="container mx-auto py-4 px-4 sm:px-6 lg:px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           <div class="max-w-lg text-center">
-            <h2 class="text-3xl  font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
-            <p class="mt-4 text-gray-600 dark:text-black text-lg">
+            <h2 class="text-3xl  font-black text-gray-900 sm:text-4xl">About Us</h2>
+            <p class="mt-4 text-gray-600 font-bold dark:text-black text-xl">
               At Nangfang Quantou, we guide you on the Great Path with Bamboo Forest Mantis. Beyond techniques, we forge warriors through movement, meditation, and ancient wisdom. Our holistic practice sharpens your body, clears your mind, and awakens your chi, reconnecting you to your truest self. Embrace a lifestyle of mastery, where every strike and breath fuels transformation.
             </p>
             <div class="mt-8">
